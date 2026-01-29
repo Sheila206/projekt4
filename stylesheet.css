@@ -2,3 +2,7 @@ body{
     
     background-color: rgb(212, 103, 103);
 }
+h1{
+    color: blue;
+    size: 50%;
+}
