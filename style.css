@@ -30,11 +30,7 @@ header {
     flex-wrap: wrap;
 }
 
-.logo {
-    font-size: 32px;
-    font-weight: bold;
-    color: #f05858;
-}
+
 
 nav ul {
     list-style: none;
