@@ -4,175 +4,244 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blomster by Sløk</title>
+    <meta name="description" content="Blomster by Sløk - Pasion for blomster og det gode håndværk">
     <link rel="stylesheet" href="style.css">
-    <script src="billedecarousel.js" defer></script>
-    <script src="billedegalleri.js" defer></script>
-    <script src="burgermenu.js" defer></script>
-    <script src="kalender.js" defer></script>
-    <script src="tilbud.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <img src="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Logo%20Blomster%20by%20Sløk.jpg?withoutEnlargement&resize=141,58" alt="blomsterbysloek" class="logo">
-                <nav>
-                    <ul>
-                        <li><a href="#om-os">Om os</a></li>
-                        <li><a href="#bestilling">Bestilling</a></li>
-                        <li><a href="#aabningstider">Åbningstider</a></li>
-                        <li><a href="#abonnement">Blomster abonnement</a></li>
-                    </ul>
-                </nav>
-                <a href="tel:66163907" class="phone-header">
-                    📞 66 16 39 07
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+        <div class="mobile-header-container">
+            <div class="mobile-logo">
+                <a href="/">
+                    <span class="logo-text">Blomster by Sløk</span>
                 </a>
-                <button class="mobile-menu-btn">☰</button>
+            </div>
+            <div class="mobile-menu-icon" id="mobile-menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav class="mobile-menu" id="mobile-menu">
+            <ul>
+                <li><a href="#om-os">Om os</a></li>
+                <li><a href="#bestilling">Bestilling</a></li>
+                <li><a href="#aabningstider">Åbningstider</a></li>
+                <li><a href="#abonnement">Blomster abonnement</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+    </div>
+
+    <!-- Desktop Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-logo">
+                <a href="/">
+                    <span class="logo-text">Blomster by Sløk</span>
+                </a>
+            </div>
+            
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="#om-os">Om os</a></li>
+                    <li><a href="#bestilling">Bestilling</a></li>
+                    <li><a href="#aabningstider">Åbningstider</a></li>
+                    <li><a href="#abonnement">Blomster abonnement</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-phone">
+                <svg viewBox="0 0 29 29" width="24" height="24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M6.364 3.81c1.496-1.503 5.032-2.139 6.907-2.108 1.88-.218 1.273 8.104.313 8.263 0 0-3.039.384-3.125 1.275-.116 1.217 3.009 8.67 4.22 8.84.65.091 2.606-1.402 2.606-1.402 1.521-1.145 4.678 2.2 6.161 3.596.649.627.617 1.159-.059 1.947-1.181 1.322-4.29 3.439-5.52 3.266-2.988-.42-8.05-4.592-10.483-9.582-2.743-5.629-2.712-12.82-1.02-14.095z"></path>
+                </svg>
+                <a href="tel:66163907">66 16 39 07</a>
             </div>
         </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="hero-image"></div>
+        </div>
         <div class="hero-content">
-            <h1><span class="highlight">Blomster</span> by <span class="highlight">Sløk</span></h1>
-            <p>Pasion for blomster og det gode håndværk</p>
-            <p>Vi laver dine blomsterhilsner med hjertet</p>
-            <div class="opening-info">
+            <h1 class="hero-title">
+                <span class="highlight">Blomster</span> <span class="normal">by</span> <span class="highlight">Sløk</span>
+            </h1>
+            <div class="hero-subtitle">
+                <p>Pasion for blomster og det gode håndværk</p>
+                <p>Vi laver dine blomsterhilsner med hjertet</p>
+            </div>
+            <div class="hero-announcement">
                 <h2>Døgnåbent</h2>
-                <p style="font-size: 24px;">Vi har åbnet vores nye afdeling i forretningen</p>
-                <p style="font-size: 24px;">Her kan der handles døgnet rundt</p>
-                <p style="font-size: 24px;">Følg anvisningen på døren</p>
+                <p>Vi har åbnet vores nye afdeling i forretningen</p>
+                <p>Her kan der handles døgnet rundt</p>
+                <p>Følg anvisningen på døren</p>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="om-os" class="about">
+    <!-- Om os Section -->
+    <section id="om-os" class="about-section">
         <div class="container">
-            <h2>Om os</h2>
-            <div class="about-intro">
+            <div class="about-header">
+                <h2>Om os</h2>
                 <p>Mit navn er Sanne Sløk, jeg elsker blomster og har altid arbejdet med blomster</p>
                 <p>Jeg er uddannet blomsterdekoratør og har arbejdet med blomster i Danmark og i Norge</p>
             </div>
-
+            
             <div class="about-grid">
                 <div class="about-item">
-                    <img src="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Kroghs%20Blomster.JPG?etag=%22a6b0a-605c841d%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=424%2B565&extract=0%2B144%2B424%2B257&quality=85" alt="Blomsterarrangement">
-                    <h3>Vores værdier</h3>
-                    <p>Kvalitet, pasion og godt håndværk</p>
-                    <p>det er grundværdierne hos Blomster by Sløk</p>
-                    <p><br></p>
-                    <p>Vi glæder os over at yde god service</p>
-                    <p>og bringe glæde til modtageren af din blomsterhilsen</p>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800&h=600&fit=crop" alt="Blomster arrangement">
+                    </div>
+                    <div class="about-text">
+                        <h3>Vores værdier</h3>
+                        <p>Kvalitet, pasion og godt håndværk</p>
+                        <p>det er grundværdierne hos Blomster by Sløk</p>
+                        <p><br></p>
+                        <p>Vi glæder os over at yde god service</p>
+                        <p>og bringe glæde til modtageren af din blomsterhilsen</p>
+                    </div>
                 </div>
-
+                
                 <div class="about-item">
-                    <img src="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/DSCN7122.JPG?etag=%2219ebf-605c815a%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=640%2B480&extract=0%2B0%2B640%2B387&quality=85" alt="Friske blomster">
-                    <h3>Friske blomster</h3>
-                    <p>Blomster skal være friske, det er med til at skabe glæden ved en smuk buket</p>
-                    <p><br></p>
-                    <p>Vi får derfor friske blomster hjem hver dag dermed får du som kunde det bedste produkt</p>
-                    <p>Skulle du opleve andet - Så kontakt os!</p>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=800&h=600&fit=crop" alt="Friske blomster">
+                    </div>
+                    <div class="about-text">
+                        <h3>Friske blomster</h3>
+                        <p>Blomster skal være friske, det er med til at skabe glæden ved en smuk buket</p>
+                        <p><br></p>
+                        <p>Vi får derfor friske blomster hjem hver dag dermed får du som kunde det bedste produkt</p>
+                        <p>Skulle du opleve andet - Så kontakt os!</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Bestilling Section -->
-    <section id="bestilling" class="bestilling">
+    <section id="bestilling" class="bestilling-section">
+        <div class="bestilling-background"></div>
         <div class="container">
-            <h1>Ring venligst</h1>
-            <h1>66 16 39 07</h1>
-            <h2>Vi er klar til at tage imod din bestilling</h2>
-            
-            <div class="email-section">
-                <h3>Eller send din bestilling på e-mail</h3>
-                <h3><a href="mailto:blomster@byslok.dk">blomster@byslok.dk</a></h3>
+            <div class="bestilling-content">
+                <h1>Ring venligst</h1>
+                <h1 class="phone-number">66 16 39 07</h1>
+                <h2>Vi er klar til at tage imod din bestilling</h2>
+                <div class="email-info">
+                    <h3>Eller send din bestilling på e-mail</h3>
+                    <h3><a href="mailto:blomster@byslok.dk">blomster@byslok.dk</a></h3>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Opening Hours -->
-    <section id="aabningstider" class="opening-hours">
+    <!-- Åbningstider Section -->
+    <section id="aabningstider" class="opening-hours-section">
         <div class="container">
-            <h2>Døgnåbent</h2>
-            <p class="subtitle">Følg anvisningen på døren</p>
-            <p class="personal-service">Personlig betjening i drivhuset</p>
-
-            <div class="hours-grid">
-                <div class="day">
+            <div class="opening-header">
+                <h2>Døgnåbent</h2>
+                <p class="subtitle">Følg anvisningen på døren</p>
+                <p class="personal-service">Personlig betjening i drivhuset</p>
+            </div>
+            
+            <div class="opening-grid">
+                <div class="opening-day">
                     <h3>Mandag-fredag</h3>
                     <p>10:00 - 16:00 i drivhuset</p>
                     <p><br></p>
-                    <p><strong>Døgnbutikken er åben</strong></p>
+                    <p class="bold">Døgnbutikken er åben</p>
                 </div>
-
-                <div class="day divider">
+                
+                <div class="opening-divider"></div>
+                
+                <div class="opening-day">
                     <h3>Lørdag</h3>
                     <p>Lukket i drivhuset</p>
                     <p><br></p>
-                    <p><strong>Døgnbutikken er åben</strong></p>
+                    <p class="bold">Døgnbutikken er åben</p>
                 </div>
-
-                <div class="day divider">
+                
+                <div class="opening-divider"></div>
+                
+                <div class="opening-day">
                     <h3>Søndag</h3>
                     <p>Lukket i drivhuset</p>
                     <p><br></p>
-                    <p><strong>Døgnbutikken er åben</strong></p>
+                    <p class="bold">Døgnbutikken er åben</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Abonnement Section -->
-    <section id="abonnement" class="abonnement">
+    <section id="abonnement" class="abonnement-section">
         <div class="container">
             <h2>Blomster på abonnement</h2>
-
-            <div class="abonnement-content">
+            
+            <div class="abonnement-grid">
                 <div class="abonnement-info">
-                    <img src="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/2.jpeg?etag=W%2F%221ea94-671762c1%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=594%2B594&extract=0%2B0%2B585%2B594&quality=85" alt="Blomsterbuket">
-                    <p>Nu er det slut med at glemme bryllupsdage, fødselsdage og andre store mærkedage. Og slut med de ensomme nætter på sofaen!</p>
-                    <p>Med et blomsterabonnement hos Blomster by Sløk husker vi dig nemlig på de dage, hvor den eller dem, som du synes fortjener ekstra opmærksomhed, får leveret en buket blomster derhjemme eller på jobbet.</p>
-                    <p><br></p>
-                    <p>Brug kontaktformularen til højre, så er du i gang.</p>
-                    <p><br></p>
-                    <p>Kr. 70,- for levering kommer i tillæg</p>
-                    <p><br></p>
-                    <p>Betaling sker via MobilePay efter henvendelse.</p>
+                    <div class="abonnement-image">
+                        <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800&h=800&fit=crop" alt="Blomster abonnement">
+                    </div>
+                    <div class="abonnement-text">
+                        <p>Nu er det slut med at glemme bryllupsdage, fødselsdage og andre store mærkedage. Og slut med de ensomme nætter på sofaen!</p>
+                        <p>Med et blomsterabonnement hos Blomster by Sløk husker vi dig nemlig på de dage, hvor den eller dem, som du synes fortjener ekstra opmærksomhed, får leveret en buket blomster derhjemme eller på jobbet.</p>
+                        <p><br></p>
+                        <p>Brug kontaktformularen til højre, så er du i gang.</p>
+                        <p><br></p>
+                        <p>Kr. 70,- for levering kommer i tillæg</p>
+                        <p><br></p>
+                        <p>Betaling sker via MobilePay efter henvendelse.</p>
+                    </div>
                 </div>
-
-                <div class="contact-form">
-                    <form>
-                        <label for="navn">Dit navn *</label>
-                        <input type="text" id="navn" name="navn" required>
-
-                        <label for="email">E-mail *</label>
-                        <input type="email" id="email" name="email" required>
-
-                        <label for="telefon">Telefon *</label>
-                        <input type="tel" id="telefon" name="telefon" required>
-
-                        <label for="adresse">Modtager samt Leverings adresse *</label>
-                        <textarea id="adresse" name="adresse" required></textarea>
-
-                        <label for="datoer">Datoer for levering *</label>
-                        <input type="text" id="datoer" name="datoer" required>
-
-                        <label for="pris">Pris *</label>
-                        <select id="pris" name="pris" required>
-                            <option value="">--</option>
-                            <option value="250">Kr. 250,-</option>
-                            <option value="300">Kr. 300,-</option>
-                            <option value="350">Kr. 350,-</option>
-                            <option value="400">Kr. 400,-</option>
-                            <option value="450">Kr. 450,-</option>
-                            <option value="500">Kr. 500,-</option>
-                        </select>
-
-                        <button type="submit">Send</button>
+                
+                <div class="abonnement-form">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label>Dit navn *</label>
+                            <input type="text" name="navn" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>E-mail *</label>
+                            <input type="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Telefon *</label>
+                            <input type="tel" name="telefon" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Modtager samt Leverings adresse *</label>
+                            <textarea name="adresse" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Datoer for levering *</label>
+                            <input type="text" name="datoer" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Pris *</label>
+                            <select name="pris" required>
+                                <option value="">--</option>
+                                <option value="250">Kr. 250,-</option>
+                                <option value="300">Kr. 300,-</option>
+                                <option value="350">Kr. 350,-</option>
+                                <option value="400">Kr. 400,-</option>
+                                <option value="450">Kr. 450,-</option>
+                                <option value="500">Kr. 500,-</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Send</button>
                     </form>
                 </div>
             </div>
@@ -180,39 +249,74 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-grid">
                 <div class="footer-item">
-                    <h3>Adresse</h3>
-                    <p>Blomster by Sløk</p>
-                    <p>Rugårdsvej 192</p>
-                    <p>5210 Odense NV</p>
-                    <p>Denmark</p>
-                </div>
-
-                <div class="footer-item">
-                    <h3>E-mail</h3>
-                    <p><a href="mailto:blomster@byslok.dk">blomster@byslok.dk</a></p>
-                    
-                    <div class="social-links">
-                        <a href="https://facebook.com/KroghsBlomster" target="_blank">f</a>
-                        <a href="https://instagram.com" target="_blank">i</a>
+                    <div class="footer-icon">
+                        <svg viewBox="0 0 29 29" width="24" height="24">
+                            <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7">
+                                <path d="M18.625 10.2a4 4 0 11-8 .001 4 4 0 018-.001z"></path>
+                                <path d="M23.825 10.2c0-5.985-4.92-9-9.5-8.95C9.797 1.2 5.3 4.223 5.3 10.2c0 5.979 8.188 16.677 8.426 17.116.238.438.976.438 1.214 0 5.923-7.41 8.885-13.116 8.885-17.116z"></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="footer-content">
+                        <span class="footer-label">Adresse</span>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Blomster+by+Sløk,+Rugårdsvej+192,+5210+Odense" target="_blank">
+                            Blomster by Sløk<br>
+                            Odense NV, Rugårdsvej 192<br>
+                            5210 Odense<br>
+                            Denmark
+                        </a>
                     </div>
                 </div>
-
+                
                 <div class="footer-item">
-                    <h3>Telefon</h3>
-                    <p><a href="tel:66163907">66 16 39 07</a></p>
+                    <div class="footer-icon">
+                        <svg viewBox="0 0 29 29" width="24" height="24">
+                            <path fill="currentColor" d="M5.135 5.37c-1.531 0-2.772 1.209-2.772 2.7v12.958c0 1.491 1.241 2.7 2.772 2.7h18.848c1.53 0 2.771-1.209 2.771-2.7V8.07c0-1.491-1.24-2.7-2.771-2.7H5.135zm0-1.62h18.848c2.449 0 4.434 1.934 4.434 4.32v12.958c0 2.386-1.985 4.32-4.434 4.32H5.135c-2.45 0-4.435-1.934-4.435-4.32V8.07c0-2.386 1.986-4.32 4.435-4.32z"></path>
+                            <path fill="currentColor" d="M23.998 7.48c.335.306.35.819.036 1.145l-5.898 6.103 5.88 5.728c.298.29.323.745.075 1.062l-.075.083a.847.847 0 01-1.176 0l-5.844-5.693-1.832 1.896a.847.847 0 01-1.21 0l-1.833-1.896L6.277 21.6a.847.847 0 01-1.176 0 .795.795 0 010-1.145l5.88-5.728-5.897-6.103a.795.795 0 01.035-1.145.847.847 0 011.176.035l8.264 8.552 8.264-8.552a.847.847 0 011.175-.035z"></path>
+                        </svg>
+                    </div>
+                    <div class="footer-content">
+                        <span class="footer-label">E-mail</span>
+                        <a href="mailto:blomster@byslok.dk">blomster@byslok.dk</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://facebook.com/KroghsBlomster" target="_blank" aria-label="Facebook">
+                            <svg viewBox="0 0 45 45" width="24" height="24">
+                                <path fill="currentColor" d="M44.506 22.23C44.506 9.951 34.543 0 22.253 0 9.963 0 0 9.952 0 22.23c0 11.094 8.138 20.29 18.776 21.958V28.655h-5.65V22.23h5.65v-4.897c0-5.571 3.322-8.649 8.405-8.649 2.435 0 4.981.435 4.981.435v5.47h-2.806c-2.764 0-3.626 1.714-3.626 3.472v4.17h6.172l-.987 6.425H25.73V44.19c10.638-1.668 18.776-10.864 18.776-21.96"></path>
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com/p/BjHDbBinXBs/?hl=da" target="_blank" aria-label="Instagram">
+                            <svg viewBox="0 0 43 43" width="24" height="24">
+                                <path fill="currentColor" d="M12.28.028C5.524.028.05 5.506.05 12.263V30.19c0 6.757 5.475 12.234 12.23 12.234h18.15c6.754 0 12.23-5.477 12.23-12.234V12.263c0-6.757-5.476-12.235-12.23-12.235H12.28zm0 3.945h18.15a8.287 8.287 0 018.285 8.288V30.19a8.286 8.286 0 01-8.285 8.287H12.28a8.286 8.286 0 01-8.286-8.287V12.263a8.287 8.287 0 018.286-8.288zm9.131 6.203c-6.195 0-11.217 5.023-11.217 11.219s5.022 11.219 11.217 11.219c6.194 0 11.216-5.023 11.216-11.22 0-6.195-5.022-11.218-11.216-11.218zm0 3.946a7.272 7.272 0 110 14.544 7.272 7.272 0 010-14.544zM32.74 7.189a2.706 2.706 0 110 5.411 2.706 2.706 0 010-5.411z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-item">
+                    <div class="footer-icon">
+                        <svg viewBox="0 0 29 29" width="24" height="24">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M6.364 3.81c1.496-1.503 5.032-2.139 6.907-2.108 1.88-.218 1.273 8.104.313 8.263 0 0-3.039.384-3.125 1.275-.116 1.217 3.009 8.67 4.22 8.84.65.091 2.606-1.402 2.606-1.402 1.521-1.145 4.678 2.2 6.161 3.596.649.627.617 1.159-.059 1.947-1.181 1.322-4.29 3.439-5.52 3.266-2.988-.42-8.05-4.592-10.483-9.582-2.743-5.629-2.712-12.82-1.02-14.095z"></path>
+                        </svg>
+                    </div>
+                    <div class="footer-content">
+                        <span class="footer-label">Telefon</span>
+                        <a href="tel:66163907">66 16 39 07</a>
+                    </div>
                 </div>
             </div>
-
-            <div class="copyright">
+            
+            <div class="footer-bottom">
                 <p>Copyright © Alle rettigheder forbeholdes</p>
                 <p>Blomster by Sløk - CVR: 31357578</p>
             </div>
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
