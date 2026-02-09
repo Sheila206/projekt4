@@ -64,7 +64,7 @@ nav a:hover {
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(60, 60, 60, 0.4), rgba(60, 60, 60, 0.4)),
-                url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1200') center/cover;
+                url(https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/IMG_5112.JPG?etag=%223bd9c2-605c7e3f%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=3798%2B2532&extract=0%2B0%2B3150%2B2064&quality=85%27) center/cover;
     min-height: 600px;
     display: flex;
     align-items: center;
@@ -150,7 +150,7 @@ nav a:hover {
 /* Bestilling Section */
 .bestilling {
     background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
-                url('https://images.unsplash.com/photo-1487070183336-b863922373d4?w=1200') center/cover;
+                url(https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/IMG_8076.JPG?etag=%2216633-605c89ae%22&sourceContentType=image%2Fjpeg&quality=85&progressive) center/cover;
     padding: 80px 0;
     text-align: center;
     color: #3c3c3c;
