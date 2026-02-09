@@ -54,11 +54,6 @@ img {
     background-color: #ffffff;
 }
 
-.mobile-logo .logo-text {
-    font-size: 24px;
-    font-weight: bold;
-    color: #f05858;
-}
 
 .mobile-menu-icon {
     width: 30px;
@@ -153,21 +148,21 @@ img {
     text-align: left;
 }
 
-.header-logo .logo-text {
-    font-size: 48px;
-    font-weight: 100;
-    color: #f05858;
-    letter-spacing: 2px;
-}
 
 .desktop-menu {
     flex: 1;
+}
+
+.logo {
+    max-width: 150px;  /* Juster denne værdi efter ønske */
+    height: auto;
 }
 
 .desktop-menu ul {
     display: flex;
     gap: 40px;
     justify-content: flex-start;
+    margin-left: 210px;
 }
 
 .desktop-menu ul li a {
@@ -187,7 +182,8 @@ img {
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-left: auto;
+    margin-left: 1200px;
+    margin-bottom: 50px;
 }
 
 .header-phone svg {
