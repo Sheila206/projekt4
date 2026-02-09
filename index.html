@@ -1,22 +1,954 @@
 <!DOCTYPE html>
-<html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1>HEllo Cats</h1>
-    </header>
-    <main>
-        <p>Det er mig</p>
-        <h2>Sheila, Sarah, Bara, Liana og Mai</h2>
+<html prefix="og: http://ogp.me/ns#" style="height:auto !important">
+    <head>
+        <meta charset="utf-8">
+        <title>Blomster by Sløk</title>
+        <meta name="robots" content="all">
+        <meta name="generator" content="One.com Web Editor">
+        <meta http-equiv="Cache-Control" content="must-revalidate, max-age=0, public">
+        <meta http-equiv="Expires" content="-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=yes" minpagewidth="1052" rendermobileview="true">
+        <meta name="MobileOptimized" content="320">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="format-detection" content="telephone=no">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Blomster by Sløk">
+        <meta property="og:site_name" content="Blomster by Sløk">
+        <meta property="og:url" content="https://blomsterbyslok.dk/">
+        <meta property="og:image" content="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Logo%20Blomster%20by%20Sl%C3%B8k.jpg?etag=W%2F%222e00a3-605c78d9%22&amp;sourceContentType=image%2Fjpeg&amp;quality=85">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="759">
+        <meta property="og:image:height" content="312">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Blomster by Sløk">
+        <meta name="twitter:image:alt" content="Blomster by Sløk">
+        <meta name="twitter:image" content="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Logo%20Blomster%20by%20Sl%C3%B8k.jpg?etag=W%2F%222e00a3-605c78d9%22&amp;sourceContentType=image%2Fjpeg&amp;quality=85">
+        <link rel="canonical" href="https://blomsterbyslok.dk/">
+        <style type="text/css">
+            html {
+                word-wrap: break-word;
+            }
 
-    </main>
-    <footer>
+            *, ::before, ::after {
+                word-wrap: inherit;
+            }
 
-    </footer>
-</body>
+            html {
+                box-sizing: border-box;
+            }
+
+            *, ::before, ::after {
+                box-sizing: inherit;
+            }
+
+            div.code {
+                box-sizing: content-box;
+            }
+
+            body, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, td, textarea {
+                margin: 0;
+                padding: 0;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                font-size: 100%;
+                font-weight: normal;
+            }
+
+            ol, ul {
+                list-style: none;
+            }
+
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+
+            img {
+                border: 0;
+            }
+
+            body {
+                -moz-osx-font-smoothing: grayscale;
+                -webkit-font-smoothing: antialiased;
+            }
+        </style>
+        <style type="text/css">
+            @font-face {
+                font-family: 'dropDownMenu';
+                src: url('data:font/woff;base64,d09GRgABAAAAAATIAAsAAAAABHwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgCKf/                                                                           KmNtYXAAAAFoAAAAVAAAAFQXVtKIZ2FzcAAAAbwAAAAIAAAACAAAABBnbHlmAAABxAAAAHwAAAB8fskqDWhlYWQAAAJAAAAANgAAADYTD4ZFaGhlYQAAAngAAAAkAAAAJAMbAaFobXR4AAACnAAAABgAAAAYBgABN2xvY2EAAAK0AAAADgAAAA4AZgBCbWF4cAAAAsQAAAAgAAAAIAAIAAhuYW1lAAAC5AAAAcIAAAHCcs7DVXBvc3QAAASoAAAAIAAAACAAAwAAAAMCAAGQAAUAAAFMAWYAAABHAUwBZgAAAPUAGQCEAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAA6QEBmf+                 aAGYBmQBmAAAAAQAAAAAAAAAAAAAAIAAAAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADgAAAAKAAgAAgACAAEAIOkB//3//wAAAAAAIOkA//3//wAB/+MXBAADAAEAAAAAAAAAAAAAAAEAAf//                                     AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQCAAFABgADuAAUAADcXNxcHJ55iYh6AgO5iYh6AgAABALcAGgFVARoABQAAPwEnNxcHt2JiHoCAOGJiHoCAAAEAAAABAADh0Y3XXw889QALAgAAAAAA2TijFwAAAADZOKMXAAAAAAGAARoAAAAIAAIAAAAAAAAAAQAAAZn/                                                                                                                                mgAAAgAAAAAAAYAAAQAAAAAAAAAAAAAAAAAAAAYCAAAAAAAAAAAAAAAAAAAAAgAAgAIAALcAAAAAAAoAFAAeAC4APgAAAAEAAAAGAAYAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQAMAAAAAQAAAAAAAgAHAI0AAQAAAAAAAwAMAEUAAQAAAAAABAAMAKIAAQAAAAAABQALACQAAQAAAAAABgAMAGkAAQAAAAAACgAaAMYAAwABBAkAAQAYAAwAAwABBAkAAgAOAJQAAwABBAkAAwAYAFEAAwABBAkABAAYAK4AAwABBAkABQAWAC8AAwABBAkABgAYAHUAAwABBAkACgA0AOBkcm9wRG93bk1lbnUAZAByAG8AcABEAG8AdwBuAE0AZQBuAHVWZXJzaW9uIDEuMABWAGUAcgBzAGkAbwBuACAAMQAuADBkcm9wRG93bk1lbnUAZAByAG8AcABEAG8AdwBuAE0AZQBuAHVkcm9wRG93bk1lbnUAZAByAG8AcABEAG8AdwBuAE0AZQBuAHVSZWd1bGFyAFIAZQBnAHUAbABhAHJkcm9wRG93bk1lbnUAZAByAG8AcABEAG8AdwBuAE0AZQBuAHVGb250IGdlbmVyYXRlZCBieSBJY29Nb29uLgBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+        </style>
+        <link rel="stylesheet" href="/onewebstatic/dd033cb1a6.css">
+        <style type="text/css">
+            @media (max-width: 650px) {
+                body {
+                    min-width: 'initial'
+                }
+
+                body.desktopV {
+                    min-width: 1052px
+                }
+            }
+
+            @media (min-width: 651px) {
+                body {
+                    min-width: 1052px
+                }
+
+                body.mobileV {
+                    min-width: initial
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="/onewebstatic/853eb576d9.css">
+        <link rel="stylesheet" href="/onewebstatic/90644ca9e9.css">
+        <link rel="stylesheet" href="/onewebstatic/b4da795d81.css">
+        <link href="/onewebstatic/google-fonts.php?url=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway%253A100%252C100italic%252C200%252C200italic%252C300%252C300italic%252C500%252C500italic%252C600%252C600italic%252C700%252C700italic%252C800%252C800italic%252C900%252C900italic%252Citalic%252Cregular&amp;subset%3Dall" rel="stylesheet">
+        <link href="/onewebstatic/google-fonts.php?url=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCrimson%2520Text%253A100%252C100italic%252C200%252C200italic%252C300%252C300italic%252C500%252C500italic%252C600%252C600italic%252C700%252C700italic%252C800%252C800italic%252C900%252C900italic%252Citalic%252Cregular&amp;subset%3Dall" rel="stylesheet">
+        <link rel="stylesheet" href="/onewebstatic/52704f0289.css">
+        <style type="text/css">
+            .bodyBackground {
+                background-image: none;
+                background-color: rgba(255,255,255,1);
+            }
+        </style>
+        <script type="text/javascript">
+            window.WSB_PRIVACY_POLICY_PUBLISHED = true;
+        </script>
+        <script src="/onewebstatic/e47f208c3a.js"></script>
+        <script src="/onewebstatic/f707379391.js"></script>
+    </head>
+    <body class="Preview_body__2wDzb bodyBackground" style="overflow-y:scroll;overflow-x:hidden" data-attachments="{}">
+        <div>
+            <div data-mobile-pin="0" id="wsb-mobile-header" class="mm mm-mobile-preview">
+                <header id="MobileHeader_container" class="MobileHeader_container__1XW3y MobileHeader_withLogo__boWI9" style="background-color:rgba(255,255,255,1)">
+                    <div class="MobileHeader_logo__VBlNX">
+                        <a class="MobileHeader_logoAnchor__3VO33" href="/">
+                            <img class="MobileHeader_logoImage__BZwGs" src="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Logo%20Blomster%20by%20Sl%C3%B8k.jpg?withoutEnlargement&amp;resize=71,29" srcset="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Logo%20Blomster%20by%20Sl%C3%B8k.jpg?withoutEnlargement&amp;resize=71,29 1x, https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Logo%20Blomster%20by%20Sl%C3%B8k.jpg?withoutEnlargement&amp;resize=141,58 2x">
+                        </a>
+                    </div>
+                    <div class="MobileHeader_dummyMenuIconContainer__3mfi4"></div>
+                </header>
+                <div id="mm" class="MobileHeaderMenu_mobileMenu__21p7v" style="background-color:rgba(60,60,60,1)">
+                    <ul>
+                        <li>
+                            <a href="/#06049D74-1E49-4F07-BD95-7E0C13881864" class="" style="background-color:rgba(60,60,60,1);color:rgba(255,255,255,1);font-size:16px;line-height:3;font-family:Raleway" title="Om os" sectionid="06049D74-1E49-4F07-BD95-7E0C13881864">Om os</a>
+                        </li>
+                        <li>
+                            <a href="/#4776EB83-8B33-4EFD-B973-365A18871B4F" class="" style="background-color:rgba(60,60,60,1);color:rgba(255,255,255,1);font-size:16px;line-height:3;font-family:Raleway" title="Bestilling" sectionid="4776EB83-8B33-4EFD-B973-365A18871B4F">Bestilling</a>
+                        </li>
+                        <li>
+                            <a href="/#8C32A739-A529-41DE-8FAE-586F0426D2AD" class="" style="background-color:rgba(60,60,60,1);color:rgba(255,255,255,1);font-size:16px;line-height:3;font-family:Raleway" title="Åbningstider" sectionid="8C32A739-A529-41DE-8FAE-586F0426D2AD">Åbningstider</a>
+                        </li>
+                        <li>
+                            <a href="/#CD23682C-8FB1-4D9D-827D-FBCBD19637F2" class="" style="background-color:rgba(60,60,60,1);color:rgba(255,255,255,1);font-size:16px;line-height:3;font-family:Raleway" title="Blomster abonnement" sectionid="CD23682C-8FB1-4D9D-827D-FBCBD19637F2">Blomster abonnement</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="mm-overlay" class="MobileHeaderMenu_mobileMenu_overlay__3WPnz"></div>
+                <div class="MobileHeader_menuIconContainer__lc-Zq off" id="MobileHeader_burgerMenuIcon" data-active-bgcolor="rgba(255,255,255,1)" data-inactive-bgcolor="rgba(60,60,60,1)">
+                    <span style="background-color:rgba(60,60,60,1)"></span>
+                    <span style="background-color:rgba(60,60,60,1)"></span>
+                    <span style="background-color:rgba(60,60,60,1)"></span>
+                </div>
+            </div>
+        </div>
+        <style type="text/css">
+            .template {
+                visibility: hidden
+            }
+
+            body {
+                overflow-x: hidden
+            }
+        </style>
+        <link rel="stylesheet" href="/onewebstatic/5a3c8224ea.css">
+        <div class="template" data-mobile-view="true">
+            <div class="Preview_row__3Fkye row" style="width:1052px"></div>
+            <div class="Preview_row__3Fkye row Preview_noSideMargin__2I-_n" style="min-height:170px;width:100%">
+                <div data-id="45919944-F956-4915-A693-D204C8C5C1B0" data-kind="SECTION" style="width:100%;min-height:170px;left:auto;margin-top:0;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                    <div id="Header" data-in-template="true" data-id="45919944-F956-4915-A693-D204C8C5C1B0" data-kind="Block" data-specific-kind="SECTION" data-pin="0" data-stretch="true" class=" Preview_block__16Zmu ">
+                        <div class="StripPreview_backgroundComponent__3YmQM Background_backgroundComponent__3_1Ea hasChildren" style="background-color:rgba(255,255,255,1);border-width:1px 1px 1px 1px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:0px;min-height:170px;padding-bottom:10px" data-width="100" data-height="170">
+                            <div class="Preview_column__1KeVx col " style="min-height:100%;width:1052px;margin:0 auto">
+                                <div class="Preview_row__3Fkye row" style="min-height:99px;width:1052px">
+                                    <div data-id="A5A1FCC0-4019-4CC4-AC1B-D4F3CA9EAEA3" data-kind="LOGO" style="width:360px;min-height:60px;margin-top:39px;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                                        <div data-in-template="true" data-id="A5A1FCC0-4019-4CC4-AC1B-D4F3CA9EAEA3" data-kind="Component" data-specific-kind="LOGO" class=" Preview_component__SbiKo ">
+                                            <div class="Mobile_imageComponent__QXWk1" style="width:360px;height:60px;overflow:hidden" data-width="360" data-height="60">
+                                                <a href="/" target="_self" title="" alt="" style="display:block;margin-left:0px;width:145.961538461538px" data-stop-propagation="true">
+                                                    <img loading="lazy" role="presentation" data-scalestrategy="logo" style="margin-top:0px;display:block" src="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Logo%20Blomster%20by%20Sl%C3%B8k.jpg?etag=W%2F%222e00a3-605c78d9%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=292%2B120&amp;quality=85" srcset="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Logo%20Blomster%20by%20Sl%C3%B8k.jpg?etag=W%2F%222e00a3-605c78d9%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=292%2B120&amp;quality=85 2x, https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Logo%20Blomster%20by%20Sl%C3%B8k.jpg?etag=W%2F%222e00a3-605c78d9%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=438%2B180&amp;quality=85 3x" height="60" width="145.961538461538" alt="Blomster by Sløk" data-width="360" data-height="60">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Preview_row__3Fkye row" style="min-height:61px;width:1052px">
+                                    <div class="Preview_column__1KeVx col  isExpandable" style="min-height:61px;width:711px;float:left">
+                                        <div data-id="C6D3420B-61FF-40C9-BC69-0AF0EAD27AFA" data-kind="MENU" style="width:710px;min-height:49px;margin-top:12px;margin-left:1px" class="Preview_componentWrapper__2i4QI">
+                                            <div data-in-template="true" data-id="C6D3420B-61FF-40C9-BC69-0AF0EAD27AFA" data-kind="Component" data-specific-kind="MENU" class="Preview_mobileHide__9T929 Preview_component__SbiKo ">
+                                                <div class="menu moreEnabled menuself menuhorizontal dropdown menuhorizontalleft menuverticalmiddle White" style="width:710px;height:49px;display:none">
+                                                    <ul class="ThemeMenu1">
+                                                        <li class="">
+                                                            <a class="level-0" href="/#06049D74-1E49-4F07-BD95-7E0C13881864" sectionid="06049D74-1E49-4F07-BD95-7E0C13881864">
+                                                                <span>Om os</span>
+                                                            </a>
+                                                            <div class="divider"></div>
+                                                        </li>
+                                                        <li class="">
+                                                            <a class="level-0" href="/#4776EB83-8B33-4EFD-B973-365A18871B4F" sectionid="4776EB83-8B33-4EFD-B973-365A18871B4F">
+                                                                <span>Bestilling</span>
+                                                            </a>
+                                                            <div class="divider"></div>
+                                                        </li>
+                                                        <li class="">
+                                                            <a class="level-0" href="/#8C32A739-A529-41DE-8FAE-586F0426D2AD" sectionid="8C32A739-A529-41DE-8FAE-586F0426D2AD">
+                                                                <span>Åbningstider</span>
+                                                            </a>
+                                                            <div class="divider"></div>
+                                                        </li>
+                                                        <li class="">
+                                                            <a class="level-0" href="/#CD23682C-8FB1-4D9D-827D-FBCBD19637F2" sectionid="CD23682C-8FB1-4D9D-827D-FBCBD19637F2">
+                                                                <span>Blomster abonnement</span>
+                                                            </a>
+                                                            <div class="divider"></div>
+                                                        </li>
+                                                        <li class="">
+                                                            <a class="expandable level-0">
+                                                                <span>Mere</span>
+                                                            </a>
+                                                            <ul class="ThemeMenu2">
+                                                                <li class="menuhidden">
+                                                                    <a class="level-1" href="https://websitebuilder.one.com/api/v1/blomsterbyslok.dk/preview-wbtgen/more-button-child-page-id.html">
+                                                                        <span>More child</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div class="Preview_column__1KeVx col  isExpandable" style="min-height:61px;width:340px;float:left">
+                                        <div data-id="DD41B608-7F15-4DB7-8E67-BA3D2DC5AFDF" data-kind="PHONE" style="width:200px;min-height:49px;margin-top:12px;margin-left:140px" class="Preview_componentWrapper__2i4QI">
+                                            <div data-in-template="true" data-id="DD41B608-7F15-4DB7-8E67-BA3D2DC5AFDF" data-kind="Component" data-specific-kind="PHONE" class="Preview_mobileHide__9T929 Preview_component__SbiKo ">
+                                                <div class="White themeTextClass" style="height:100%;width:100%">
+                                                    <div class="textnormal" style="word-break:break-word;height:100%;width:100%;display:flex;align-items:center;flex-direction:row">
+                                                        <div style="width:auto">
+                                                            <div class="svgContainer" style="font-size:24px;display:flex;justify-content:center;width:24px;height:24px;margin-right:12px">
+                                                                <a class="textnormal" href="tel:66%2016%2039%2007" style="font-size:1px;letter-spacing:1px;line-height:1.2;width:24px" data-preserve-whitespace="true">
+                                                                    <svg viewBox="0 0 29 29" style="width:24px">
+                                                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M6.364 3.81c1.496-1.503 5.032-2.139 6.907-2.108 1.88-.218 1.273 8.104.313 8.263 0 0-3.039.384-3.125 1.275-.116 1.217 3.009 8.67 4.22 8.84.65.091 2.606-1.402 2.606-1.402 1.521-1.145 4.678 2.2 6.161 3.596.649.627.617 1.159-.059 1.947-1.181 1.322-4.29 3.439-5.52 3.266-2.988-.42-8.05-4.592-10.483-9.582-2.743-5.629-2.712-12.82-1.02-14.095z"></path>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div style="width:100%">
+                                                            <div class="textnormal" style="font-size:1px;white-space:pre-wrap;line-height:1.2;text-align:left;width:100%">
+                                                                <a class="textnormal" href="tel:66%2016%2039%2007" style="font-size:14px;letter-spacing:1px;line-height:1.2" data-preserve-whitespace="true">
+                                                                    <span>66 &nbsp;16 &nbsp;39 &nbsp;07</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Preview_row__3Fkye row Preview_noSideMargin__2I-_n" style="min-height:688px;width:100%">
+                <div data-id="F6344C57-5FEB-4E0D-A293-52ABD882EC28" data-kind="SECTION" style="width:100%;min-height:688px;left:auto;margin-top:0;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                    <div id="Hero" data-in-template="false" data-id="F6344C57-5FEB-4E0D-A293-52ABD882EC28" data-kind="Block" data-specific-kind="SECTION" data-pin="0" data-stretch="true" class=" Preview_block__16Zmu ">
+                        <div class="StripPreview_backgroundComponent__3YmQM Background_backgroundComponent__3_1Ea hasChildren" style="background-color:rgba(255,255,255,1);border-width:1px 1px 1px 1px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:0px;min-height:688px;padding-bottom:0" data-width="100" data-height="688">
+                            <div class="Preview_column__1KeVx col " style="min-height:100%;width:1052px;margin:0 auto">
+                                <div class="Preview_row__3Fkye row" style="min-height:688px;width:1052px">
+                                    <div data-id="9220A123-ADE2-4475-9662-77FCF6EB698C" data-kind="BACKGROUND" style="width:1050px;min-height:688px;margin-top:0;margin-left:1px" class="Preview_componentWrapper__2i4QI">
+                                        <div data-in-template="false" data-id="9220A123-ADE2-4475-9662-77FCF6EB698C" data-kind="Block" data-specific-kind="BACKGROUND" class=" Preview_block__16Zmu ">
+                                            <div class="BackgroundPreview_backgroundComponent__3Dr5e hasChildren" style="background-color:rgba(60,60,60,1);border-width:1px 1px 1px 1px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:0px;min-height:688px;padding-bottom:0" data-width="1050" data-height="688">
+                                                <div class="parallax_scrollEffectContainer__3co8j">
+                                                    <div class="BackgroundPreview_bgImageContainer__1PsgY" style="background-image:url(/onewebstatic/6a3eba1887.jpg);background-repeat:no-repeat;background-position:0% 50%;background-size:cover;background-attachment:scroll;opacity:0.6;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:0px" data-opacity="true"></div>
+                                                </div>
+                                                <div class="Preview_column__1KeVx col " style="min-height:100%">
+                                                    <div class="Preview_row__3Fkye row" style="min-height:688px;width:1050px">
+                                                        <div data-id="2A42401F-4C13-4BF6-AA03-1B5D7D1A352C" data-kind="IMAGE" style="width:1050px;min-height:688px;margin-top:0;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                                                            <div data-in-template="false" data-id="2A42401F-4C13-4BF6-AA03-1B5D7D1A352C" data-kind="Block" data-specific-kind="IMAGE" class=" Preview_block__16Zmu ">
+                                                                <div class="image-container Mobile_imageComponent__QXWk1 Mobile_cropMode__cLuJp" style="background-color:transparent;background-position:top;background-size:cover;background-repeat:no-repeat;background-image:url('https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/IMG_5112.JPG?etag=%223bd9c2-605c7e3f%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=3798%2B2532&amp;extract=0%2B0%2B3150%2B2064&amp;quality=85');min-height:688px;height:inherit;padding-bottom:43px" data-width="1050" data-height="688">
+                                                                    <div class="Preview_column__1KeVx col " style="min-height:100%">
+                                                                        <div class="Preview_row__3Fkye row" style="min-height:100px;width:1050px">
+                                                                            <div data-id="5F11DA4E-6435-4234-8412-B4CCF18EB1C7" data-kind="TEXT" style="width:573px;min-height:84px;margin-top:16px;margin-left:50px" class="Preview_componentWrapper__2i4QI">
+                                                                                <div data-in-template="false" data-id="5F11DA4E-6435-4234-8412-B4CCF18EB1C7" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                                                                    <div class="styles_verticalAlignmentWrapper__3SDi2" style="align-items:flex-end">
+                                                                                        <div data-mve-font-change="0" style="width:100%" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH Black themeTextClass accentColor">
+                                                                                            <h1 class="textheading1 mobile-oversized" style="font-size: 70px;">
+                                                                                                <span style="font-size: 70px;" class="mobile-oversized">
+                                                                                                    <span style="color: #ffffff;">
+                                                                                                        <span style="color: #f05858;">Blomster </span>
+                                                                                                    </span>
+                                                                                                    <span class="textnormal mobile-oversized" style="color: rgb(255, 255, 255); font-size: 70px;"></span>
+                                                                                                    <span style="color: #ffffff;">
+                                                                                                        <span style="color: #f05858;">by Sløk</span>
+                                                                                                    </span>
+                                                                                                </span>
+                                                                                            </h1>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="Preview_row__3Fkye row" style="min-height:97px;width:1050px">
+                                                                            <div data-id="8A9A93E0-1F73-40BA-9B0D-474BB1EC1AE3" data-kind="TEXT" style="width:467px;min-height:86px;margin-top:11px;margin-left:503px" class="Preview_componentWrapper__2i4QI">
+                                                                                <div data-in-template="false" data-id="8A9A93E0-1F73-40BA-9B0D-474BB1EC1AE3" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                                                                    <div data-mve-font-change="0" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH Black themeTextClass">
+                                                                                        <p style="font-size: 20px;" class="">
+                                                                                            <span style="color: #ffffff; font-size: 20px;" class="">Pasion for blomster og det gode håndværk</span>
+                                                                                        </p>
+                                                                                        <p style="font-size: 20px;" class="">
+                                                                                            <span style="color: #ffffff; font-size: 20px;" class="">
+                                                                                                <br>
+                                                                                            </span>
+                                                                                        </p>
+                                                                                        <p style="font-size: 20px;" class="">
+                                                                                            <span style="color: #ffffff; font-size: 20px;" class="">Vi laver dine blomsterhilsner med hjertet</span>
+                                                                                        </p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="Preview_row__3Fkye row" style="min-height:448px;width:1050px">
+                                                                            <div data-id="3B9510B3-7ADB-4706-81EE-F0F3440B2CB9" data-kind="TEXT" style="width:866px;min-height:228px;margin-top:220px;margin-left:92px" class="Preview_componentWrapper__2i4QI">
+                                                                                <div data-in-template="false" data-id="3B9510B3-7ADB-4706-81EE-F0F3440B2CB9" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                                                                    <div class="styles_verticalAlignmentWrapper__3SDi2" style="align-items:flex-end">
+                                                                                        <div data-mve-font-change="0" style="width:100%;text-shadow:rgba(60,60,60,1) 5px 5px 14px" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH Black themeTextClass whiteColor">
+                                                                                            <h1 class="textheading1 mobile-oversized" style="font-size: 70px; text-align: center;">Døgnåbent</h1>
+                                                                                            <h1 class="textheading1 " style="font-size: 40px; text-align: center;">
+                                                                                                <span style="font-size: 40px;" class="">Vi har åbnet vores nye afdeling i forretningen</span>
+                                                                                            </h1>
+                                                                                            <h1 class="textheading1 " style="font-size: 40px; text-align: center;">
+                                                                                                <span style="font-size: 40px;" class="">Her kan der handles døgnet rundt</span>
+                                                                                            </h1>
+                                                                                            <h1 class="textheading1 " style="font-size: 40px; text-align: center;">
+                                                                                                <span style="font-size: 40px;" class="">Følg anvisningen på døren</span>
+                                                                                            </h1>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div style="clear:both"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div style="clear:both"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Preview_row__3Fkye row Preview_noSideMargin__2I-_n" style="min-height:728px;width:100%">
+                <div data-id="06049D74-1E49-4F07-BD95-7E0C13881864" data-kind="SECTION" style="width:100%;min-height:728px;left:auto;margin-top:0;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                    <div id="About" data-in-template="false" data-id="06049D74-1E49-4F07-BD95-7E0C13881864" data-kind="Block" data-specific-kind="SECTION" data-pin="0" data-stretch="true" class=" Preview_block__16Zmu ">
+                        <div class="StripPreview_backgroundComponent__3YmQM Background_backgroundComponent__3_1Ea hasChildren" style="background-color:rgba(255,255,255,1);border-width:1px 1px 1px 1px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:0px;min-height:728px;padding-bottom:50px" data-width="100" data-height="728">
+                            <div class="Preview_column__1KeVx col " style="min-height:100%;width:1052px;margin:0 auto">
+                                <div class="Preview_row__3Fkye row" style="min-height:193px;width:1052px">
+                                    <div data-id="228F5270-D445-4538-98C3-694FECCFDD54" data-kind="TEXT" style="width:950px;min-height:133px;margin-top:60px;margin-left:51px" class="Preview_componentWrapper__2i4QI">
+                                        <div data-in-template="false" data-id="228F5270-D445-4538-98C3-694FECCFDD54" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                            <div data-mve-font-change="0" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH White themeTextClass">
+                                                <h2 class="textheading2 mobile-oversized" style="text-align: center;">Om os</h2>
+                                                <p style="text-align: center;" class="">
+                                                    <br>
+                                                </p>
+                                                <p style="text-align: center;" class="">Mit navn er Sanne Sløk, jeg elsker blomster og har altid arbejdet med blomster</p>
+                                                <p style="text-align: center;" class="">Jeg er uddannet blomsterdekoratør og har arbejdet med blomster i Danmark og i Norge</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Preview_row__3Fkye row" style="min-height:485px;width:1052px">
+                                    <div class="Preview_column__1KeVx col " style="min-height:485px;width:475px;float:left">
+                                        <div class="Preview_row__3Fkye row" style="min-height:287px;width:475px">
+                                            <div data-id="EBA4CA19-CEFE-460B-AC33-F54DD7849C17" data-kind="IMAGE" style="width:424px;min-height:257px;margin-top:30px;margin-left:51px" class="Preview_componentWrapper__2i4QI">
+                                                <div data-in-template="false" data-id="EBA4CA19-CEFE-460B-AC33-F54DD7849C17" data-kind="Component" data-specific-kind="IMAGE" class=" Preview_component__SbiKo ">
+                                                    <div class="Mobile_imageComponent__QXWk1 Mobile_cropMode__cLuJp" style="overflow:hidden" data-width="424" data-height="257">
+                                                        <img loading="lazy" role="presentation" data-scalestrategy="crop" style="margin-top:-144px;margin-left:0px;display:block;margin:0" src="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Kroghs%20Blomster.JPG?etag=%22a6b0a-605c841d%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=424%2B565&amp;extract=0%2B144%2B424%2B257&amp;quality=85" srcset="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Kroghs%20Blomster.JPG?etag=%22a6b0a-605c841d%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=424%2B565&amp;extract=0%2B144%2B424%2B257&amp;quality=85 1x, https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Kroghs%20Blomster.JPG?etag=%22a6b0a-605c841d%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=848%2B1131&amp;extract=0%2B288%2B848%2B514&amp;quality=85 2x, https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Kroghs%20Blomster.JPG?etag=%22a6b0a-605c841d%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=1272%2B1696&amp;extract=0%2B432%2B1272%2B771&amp;quality=85 3x" height="257" width="424" data-width="424" data-height="257">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Preview_row__3Fkye row" style="min-height:198px;width:475px">
+                                            <div data-id="5A0C8EA0-5758-40A6-BC96-82DB19D78688" data-kind="TEXT" style="width:424px;min-height:178px;margin-top:20px;margin-left:51px" class="Preview_componentWrapper__2i4QI">
+                                                <div data-in-template="false" data-id="5A0C8EA0-5758-40A6-BC96-82DB19D78688" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                                    <div data-mve-font-change="0" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH White themeTextClass">
+                                                        <h3 class="textheading3 mobile-oversized" style="text-align: center;">
+                                                            <span class="textheading3 mobile-oversized" style="font-weight: normal;">Vores værdier</span>
+                                                        </h3>
+                                                        <p style="text-align: center;" class="">
+                                                            <br>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">Kvalitet, pasion og godt håndværk</p>
+                                                        <p style="text-align: center;" class="">det er grundværdierne hos Blomster by Sløk</p>
+                                                        <p style="text-align: center;" class="">
+                                                            <br>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">Vi glæder os over at yde god service</p>
+                                                        <p style="text-align: center;" class="">og bringe glæde til modtageren af din blomsterhilsen</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div class="Preview_column__1KeVx col " style="min-height:485px;width:526px;float:left">
+                                        <div class="Preview_row__3Fkye row" style="min-height:287px;width:526px">
+                                            <div data-id="B94F329A-1CE0-4FA9-B2E8-A9989AFF123D" data-kind="IMAGE" style="width:424px;min-height:257px;margin-top:30px;margin-left:102px" class="Preview_componentWrapper__2i4QI">
+                                                <div data-in-template="false" data-id="B94F329A-1CE0-4FA9-B2E8-A9989AFF123D" data-kind="Component" data-specific-kind="IMAGE" class=" Preview_component__SbiKo ">
+                                                    <div class="Mobile_imageComponent__QXWk1 Mobile_cropMode__cLuJp" style="overflow:hidden" data-width="424" data-height="257">
+                                                        <img loading="lazy" role="presentation" data-scalestrategy="crop" style="margin-top:0px;margin-left:0px;display:block;margin:0" src="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/DSCN7122.JPG?etag=%2219ebf-605c815a%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=424%2B318&amp;extract=0%2B0%2B424%2B257&amp;quality=85" srcset="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/DSCN7122.JPG?etag=%2219ebf-605c815a%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=424%2B318&amp;extract=0%2B0%2B424%2B257&amp;quality=85 1x, https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/DSCN7122.JPG?etag=%2219ebf-605c815a%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=640%2B480&amp;extract=0%2B0%2B640%2B387&amp;quality=85 2x, https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/DSCN7122.JPG?etag=%2219ebf-605c815a%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=640%2B480&amp;extract=0%2B0%2B640%2B387&amp;quality=85 3x" height="257" width="424" data-width="424" data-height="257">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Preview_row__3Fkye row" style="min-height:198px;width:526px">
+                                            <div data-id="47CEDDF4-06D7-45E4-885E-3A42B0165DC6" data-kind="TEXT" style="width:424px;min-height:178px;margin-top:20px;margin-left:102px" class="Preview_componentWrapper__2i4QI">
+                                                <div data-in-template="false" data-id="47CEDDF4-06D7-45E4-885E-3A42B0165DC6" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                                    <div data-mve-font-change="0" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH White themeTextClass">
+                                                        <h3 class="textheading3 mobile-oversized" style="text-align: center;">
+                                                            <span class="textheading3 mobile-oversized" style="font-weight: normal;">Friske blomster</span>
+                                                        </h3>
+                                                        <p style="text-align: center;" class="">
+                                                            <br>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">Blomster skal være friske, det er med til at skabe glæden ved en smuk buket</p>
+                                                        <p style="text-align: center;" class="">
+                                                            <br>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">Vi får derfor friske blomster hjem hver dag dermed får du som kunde det bedste produkt</p>
+                                                        <p style="text-align: center;" class="">Skulle du opleve andet - Så kontakt os!</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Preview_row__3Fkye row Preview_noSideMargin__2I-_n" style="min-height:435px;width:100%">
+                <div data-id="4776EB83-8B33-4EFD-B973-365A18871B4F" data-kind="SECTION" style="width:100%;min-height:435px;left:auto;margin-top:0;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                    <div id="Bestilling" data-in-template="false" data-id="4776EB83-8B33-4EFD-B973-365A18871B4F" data-kind="Block" data-specific-kind="SECTION" data-pin="0" data-stretch="true" class=" Preview_block__16Zmu ">
+                        <div class="StripPreview_backgroundComponent__3YmQM Background_backgroundComponent__3_1Ea hasChildren" style="background-color:rgba(255,255,255,1);min-height:435px;padding-bottom:20px" data-width="100" data-height="435">
+                            <div class="parallax_scrollEffectContainer__3co8j">
+                                <div class="StripPreview_bgImageContainer__MFrbA Background_bgImageContainer__AwuIx" style="background-image:url('https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/IMG_8076.JPG?etag=%2216633-605c89ae%22&amp;sourceContentType=image%2Fjpeg&amp;quality=85&amp;progressive');background-repeat:no-repeat;background-position:50% 50%;background-size:cover;background-attachment:scroll;opacity:0.4" data-opacity="true"></div>
+                            </div>
+                            <div class="Preview_column__1KeVx col " style="min-height:100%;width:1052px;margin:0 auto">
+                                <div class="Preview_row__3Fkye row" style="min-height:415px;width:1052px">
+                                    <div data-id="F741BBC3-A5CA-4179-8441-40F272602F9D" data-kind="TEXT" style="width:1050px;min-height:402px;margin-top:13px;margin-left:1px" class="Preview_componentWrapper__2i4QI">
+                                        <div data-in-template="false" data-id="F741BBC3-A5CA-4179-8441-40F272602F9D" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                            <div data-mve-font-change="0" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH White themeTextClass">
+                                                <h1 class="textheading1 mobile-oversized" style="font-size: 80px; text-align: center;">
+                                                    <span class="textheading1 mobile-oversized" style="font-size: 80px;">Ring venligst</span>
+                                                    <span class="textheading1 mobile-oversized" style="color: #212121; font-size: 80px;"></span>
+                                                </h1>
+                                                <h1 class="textheading1 mobile-oversized" style="font-size: 80px; text-align: center;">
+                                                    <span class="textheading1 mobile-oversized" style="font-size: 80px;">66 16 39 07</span>
+                                                </h1>
+                                                <h1 class="textheading1 " style="font-size: 35px; text-align: center;">
+                                                    <span class="textheading1 " style="font-size: 35px;">Vi er klar til at tage imod din bestilling</span>
+                                                </h1>
+                                                <p class="textheading1 " style="font-size: 40px; text-align: center;">
+                                                    <span class="textheading1 " style="font-size: 40px;">
+                                                        <br>
+                                                    </span>
+                                                </p>
+                                                <h1 class="textheading1 mobile-oversized" style="font-size: 50px; text-align: center;">
+                                                    <span class="textheading1 mobile-oversized" style="font-size: 50px;">Eller send din bestilling på e-mail</span>
+                                                </h1>
+                                                <h1 class="textheading1 mobile-oversized" style="font-size: 50px; text-align: center;">
+                                                    <span class="textheading1 mobile-oversized" style="font-size: 50px;">
+                                                        <a class="link1" href="mailto:blomster@byslok.dk">blomster@byslok.dk</a>
+                                                    </span>
+                                                </h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Preview_row__3Fkye row Preview_noSideMargin__2I-_n" style="min-height:521px;width:100%">
+                <div data-id="8C32A739-A529-41DE-8FAE-586F0426D2AD" data-kind="SECTION" style="width:100%;min-height:521px;left:auto;margin-top:0;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                    <div id="Opening-Hours" data-in-template="false" data-id="8C32A739-A529-41DE-8FAE-586F0426D2AD" data-kind="Block" data-specific-kind="SECTION" data-pin="0" data-stretch="true" class=" Preview_block__16Zmu ">
+                        <div class="StripPreview_backgroundComponent__3YmQM Background_backgroundComponent__3_1Ea hasChildren" style="background-color:rgba(255,255,255,1);border-color:rgba(60,60,60,1);border-style:solid;border-width:1px 1px 1px 1px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:0px;background-clip:padding-box;min-height:521px;padding-bottom:60px" data-width="100" data-height="521">
+                            <div class="Preview_column__1KeVx col " style="min-height:100%;width:1052px;margin:0 auto;margin-top:-1px;margin-bottom:-1px">
+                                <div class="Preview_row__3Fkye row" style="min-height:301px;width:1052px">
+                                    <div data-id="E9532F85-40D2-4973-B3F4-06A7EC8932B3" data-kind="TEXT" style="width:950px;min-height:241px;margin-top:60px;margin-left:51px" class="Preview_componentWrapper__2i4QI">
+                                        <div data-in-template="false" data-id="E9532F85-40D2-4973-B3F4-06A7EC8932B3" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                            <div data-mve-font-change="0" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH White themeTextClass">
+                                                <h2 class="textheading2 mobile-oversized" style="text-align: center; font-size: 80px;">
+                                                    <span class="textheading2 mobile-oversized" style="font-size: 80px;">Døgnåbent</span>
+                                                </h2>
+                                                <h2 class="textheading2 " style="text-align: center; font-size: 25px;">
+                                                    <span class="textheading2 " style="font-size: 25px;">Følg anvisningen på døren</span>
+                                                </h2>
+                                                <p class="textheading2 mobile-oversized" style="text-align: center;">
+                                                    <span class="textheading2 mobile-oversized">
+                                                        <br>
+                                                    </span>
+                                                </p>
+                                                <h2 class="textheading2 mobile-oversized" style="text-align: center;">
+                                                    <span class="textheading2 mobile-oversized">Personlig betjening i drivhuset</span>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Preview_row__3Fkye row" style="min-height:160px;width:1052px">
+                                    <div class="Preview_column__1KeVx col " style="min-height:160px;width:301px;float:left">
+                                        <div data-id="D18BBA53-555E-4096-896C-5D4FE0244F76" data-kind="TEXT" style="width:300px;min-height:120px;margin-top:40px;margin-left:1px" class="Preview_componentWrapper__2i4QI">
+                                            <div data-in-template="false" data-id="D18BBA53-555E-4096-896C-5D4FE0244F76" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                                <div class="styles_verticalAlignmentWrapper__3SDi2" style="align-items:center">
+                                                    <div data-mve-font-change="0" style="width:100%" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH White themeTextClass">
+                                                        <p style="text-align: center;" class="">
+                                                            <span style="color: #f05858; font-weight: bold;">Mandag-fredag</span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <br>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal ">10:00 - 16:00 i drivhuset</span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal ">
+                                                                <br>
+                                                            </span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal " style="font-weight: bold;">Døgnbutikken er åben</span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal ">
+                                                                <br>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div class="Preview_column__1KeVx col " style="min-height:160px;width:37px;float:left">
+                                        <div data-id="9F6E3734-1B90-4C46-9ED1-061FDB554CB6" data-kind="BACKGROUND" style="width:37px;min-height:120px;margin-top:40px;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                                            <div data-in-template="false" data-id="9F6E3734-1B90-4C46-9ED1-061FDB554CB6" data-kind="Component" data-specific-kind="BACKGROUND" class="Preview_mobileHide__9T929 Preview_component__SbiKo ">
+                                                <div class="BackgroundPreview_backgroundComponent__3Dr5e BackgroundPreview_bgHeight__3dD2e" style="background-color:transparent;border-color:rgba(60,60,60,0.77);border-style:solid;border-width:0px 2px 0px 0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:0px;background-clip:padding-box;min-height:120px;padding-bottom:0" data-width="37" data-height="120"></div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div class="Preview_column__1KeVx col " style="min-height:160px;width:338px;float:left">
+                                        <div data-id="1B9B7DC2-4922-49D2-8674-2F060E3B66C6" data-kind="TEXT" style="width:300px;min-height:120px;margin-top:40px;margin-left:38px" class="Preview_componentWrapper__2i4QI">
+                                            <div data-in-template="false" data-id="1B9B7DC2-4922-49D2-8674-2F060E3B66C6" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                                <div class="styles_verticalAlignmentWrapper__3SDi2" style="align-items:center">
+                                                    <div data-mve-font-change="0" style="width:100%" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH White themeTextClass">
+                                                        <p style="text-align: center;" class="">
+                                                            <span style="color: #f05858; font-weight: bold;">Lørdag</span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <br>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal ">Lukket i drivhuset</span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal ">
+                                                                <br>
+                                                            </span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal " style="font-weight: bold;">Døgnbutikken er åben</span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal ">
+                                                                <br>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div class="Preview_column__1KeVx col " style="min-height:160px;width:75px;float:left">
+                                        <div data-id="C9992D1B-B026-4D8B-81CB-38886037660E" data-kind="BACKGROUND" style="width:37px;min-height:120px;margin-top:40px;margin-left:38px" class="Preview_componentWrapper__2i4QI">
+                                            <div data-in-template="false" data-id="C9992D1B-B026-4D8B-81CB-38886037660E" data-kind="Component" data-specific-kind="BACKGROUND" class="Preview_mobileHide__9T929 Preview_component__SbiKo ">
+                                                <div class="BackgroundPreview_backgroundComponent__3Dr5e BackgroundPreview_bgHeight__3dD2e" style="background-color:transparent;border-color:rgba(60,60,60,0.77);border-style:solid;border-width:0px 0px 0px 2px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:0px;background-clip:padding-box;min-height:120px;padding-bottom:0" data-width="37" data-height="120"></div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div class="Preview_column__1KeVx col " style="min-height:160px;width:300px;float:left">
+                                        <div data-id="1EB59880-B644-4053-A5D3-8262D2739BBE" data-kind="TEXT" style="width:300px;min-height:120px;margin-top:40px;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                                            <div data-in-template="false" data-id="1EB59880-B644-4053-A5D3-8262D2739BBE" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                                <div class="styles_verticalAlignmentWrapper__3SDi2" style="align-items:center">
+                                                    <div data-mve-font-change="0" style="width:100%" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH White themeTextClass">
+                                                        <p style="text-align: center;" class="">
+                                                            <span style="color: #f05858; font-weight: bold;">Søndag</span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <br>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal ">Lukket i drivhuset</span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal ">
+                                                                <br>
+                                                            </span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <span class="textnormal " style="font-weight: bold;">Døgnbutikken er åben</span>
+                                                        </p>
+                                                        <p style="text-align: center;" class="">
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Preview_row__3Fkye row Preview_noSideMargin__2I-_n" style="min-height:905px;width:100%">
+                <div data-id="CD23682C-8FB1-4D9D-827D-FBCBD19637F2" data-kind="SECTION" style="width:100%;min-height:905px;left:auto;margin-top:0;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                    <div id="Abonnement" data-in-template="false" data-id="CD23682C-8FB1-4D9D-827D-FBCBD19637F2" data-kind="Block" data-specific-kind="SECTION" data-pin="0" data-stretch="true" class=" Preview_block__16Zmu ">
+                        <div class="StripPreview_backgroundComponent__3YmQM Background_backgroundComponent__3_1Ea hasChildren" style="background-color:rgba(239,210,179,0.5);min-height:905px;padding-bottom:18px" data-width="100" data-height="905">
+                            <div class="Preview_column__1KeVx col " style="min-height:100%;width:1052px;margin:0 auto">
+                                <div class="Preview_row__3Fkye row" style="min-height:114px;width:1052px">
+                                    <div data-id="AD373250-0262-459E-93DF-D730E26766CF" data-kind="TEXT" style="width:950px;min-height:58px;margin-top:56px;margin-left:42px" class="Preview_componentWrapper__2i4QI">
+                                        <div data-in-template="false" data-id="AD373250-0262-459E-93DF-D730E26766CF" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                            <div data-mve-font-change="0" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH Main themeTextClass">
+                                                <p style="font-size: 48px; text-align: center;" class="mobile-oversized">
+                                                    <span style="font-size: 48px; font-weight: bold;" class="mobile-oversized">Blomster på abonnement</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Preview_row__3Fkye row" style="min-height:773px;width:1052px">
+                                    <div class="Preview_column__1KeVx col " style="min-height:773px;width:456px;float:left">
+                                        <div class="Preview_row__3Fkye row" style="min-height:428px;width:456px">
+                                            <div data-id="CC601CA8-A32A-4D1C-BDE8-4F9437E48DC5" data-kind="IMAGE" style="width:394px;min-height:400px;margin-top:28px;margin-left:62px" class="Preview_componentWrapper__2i4QI">
+                                                <div data-in-template="false" data-id="CC601CA8-A32A-4D1C-BDE8-4F9437E48DC5" data-kind="Component" data-specific-kind="IMAGE" class=" Preview_component__SbiKo ">
+                                                    <div class="Mobile_imageComponent__QXWk1 Mobile_cropMode__cLuJp" style="overflow:hidden" data-width="394" data-height="400">
+                                                        <img loading="lazy" role="presentation" data-scalestrategy="crop" style="margin-top:0px;margin-left:0px;display:block;margin:0" src="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/2.jpeg?etag=W%2F%221ea94-671762c1%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=400%2B400&amp;extract=0%2B0%2B394%2B400&amp;quality=85" srcset="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/2.jpeg?etag=W%2F%221ea94-671762c1%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=400%2B400&amp;extract=0%2B0%2B394%2B400&amp;quality=85 1x, https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/2.jpeg?etag=W%2F%221ea94-671762c1%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=594%2B594&amp;extract=0%2B0%2B585%2B594&amp;quality=85 2x, https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/2.jpeg?etag=W%2F%221ea94-671762c1%22&amp;sourceContentType=image%2Fjpeg&amp;ignoreAspectRatio&amp;resize=594%2B594&amp;extract=0%2B0%2B585%2B594&amp;quality=85 3x" height="400" width="394" data-width="394" data-height="400">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Preview_row__3Fkye row" style="min-height:345px;width:456px">
+                                            <div data-id="06CCD046-81BC-41AB-A26E-BEB7A5F84C7A" data-kind="TEXT" style="width:394px;min-height:345px;margin-top:0;margin-left:62px" class="Preview_componentWrapper__2i4QI">
+                                                <div data-in-template="false" data-id="06CCD046-81BC-41AB-A26E-BEB7A5F84C7A" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-null">
+                                                    <div data-mve-font-change="0" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH Main themeTextClass">
+                                                        <p class="">
+                                                            <br>
+                                                        </p>
+                                                        <p class="">Nu er det slut med at glemme bryllupsdage, fødselsdage og andre store mærkedage. Og slut med de ensomme nætter på sofaen!</p>
+                                                        <p class="">Med et blomsterabonnement hos Blomster by Sløk husker vi dig nemlig på de dage, hvor den eller dem, som du synes fortjener ekstra opmærksomhed, får leveret en buket blomster derhjemme eller på jobbet.</p>
+                                                        <p class="">
+                                                            <br>
+                                                        </p>
+                                                        <p class="">Brug kontaktformularen til højre, så er du i gang.</p>
+                                                        <p class="">
+                                                            <br>
+                                                        </p>
+                                                        <p class="">Kr. 70,- for levering kommer i tillæg</p>
+                                                        <p class="">
+                                                            <br>
+                                                        </p>
+                                                        <p class="">Betaling sker via MobilePay efter henvendelse.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div class="Preview_column__1KeVx col " style="min-height:773px;width:400px;float:left">
+                                        <div data-id="C093A853-72E0-4F74-89EB-30FAFED2DE25" data-kind="CONTACTFORM" style="width:300px;min-height:709px;margin-top:28px;margin-left:100px" class="Preview_componentWrapper__2i4QI">
+                                            <div data-in-template="false" data-id="C093A853-72E0-4F74-89EB-30FAFED2DE25" data-kind="Component" data-specific-kind="CONTACTFORM" class=" Preview_component__SbiKo align-center">
+                                                <div class="contactFormContainer Main themeTextClass">
+                                                    <form id="C093A853-72E0-4F74-89EB-30FAFED2DE25" class="FieldContainerStyles_container__3ugjv oneWebCntForm" enctype="application/x-www-form-urlencoded">
+                                                        <div class="contact-form-text-style-div" style="font-family:Arial, Helvetica, sans-serif;font-size:16px;color:#464646">
+                                                            <div class="FieldContainerStyles_container__3ugjv contact-form-field-container">
+                                                                <label data-label="Dit navn" class="FieldContainerStyles_label__38Z4h" style="line-height:19px">Dit navn *</label>
+                                                                <input type="text" class="View_input__1iF1T" name="Dit navn" autocomplete="on" value="">
+                                                            </div>
+                                                            <span class="ContactFormPreview_errorMsg__296yj error">&nbsp;</span>
+                                                            <div class="FieldContainerStyles_container__3ugjv contact-form-field-container">
+                                                                <label data-label="E-mail" class="FieldContainerStyles_label__38Z4h" style="line-height:19px">E-mail *</label>
+                                                                <input type="email" class="View_input__1iF1T" name="E-mail" autocomplete="on" value="">
+                                                            </div>
+                                                            <span class="ContactFormPreview_errorMsg__296yj error">&nbsp;</span>
+                                                            <div class="FieldContainerStyles_container__3ugjv contact-form-field-container">
+                                                                <label data-label="Telefon" class="FieldContainerStyles_label__38Z4h" style="line-height:19px">Telefon *</label>
+                                                                <input type="tel" class="View_input__1iF1T" name="Telefon" autocomplete="on" value="">
+                                                            </div>
+                                                            <span class="ContactFormPreview_errorMsg__296yj error">&nbsp;</span>
+                                                            <div class="FieldContainerStyles_container__3ugjv contact-form-field-container">
+                                                                <label data-label="Modtager samt Leverings adresse" class="FieldContainerStyles_label__38Z4h" style="line-height:19px">Modtager samt Leverings adresse *</label>
+                                                                <textarea class="View_input__1iF1T View_textArea__2s1mo" name="Modtager samt Leverings adresse"></textarea>
+                                                            </div>
+                                                            <span class="ContactFormPreview_errorMsg__296yj error">&nbsp;</span>
+                                                            <div class="FieldContainerStyles_container__3ugjv contact-form-field-container">
+                                                                <label data-label="Datoer for levering" class="FieldContainerStyles_label__38Z4h" style="line-height:19px">Datoer for levering *</label>
+                                                                <input type="text" class="View_input__1iF1T" name="Datoer for levering" autocomplete="on" value="">
+                                                            </div>
+                                                            <span class="ContactFormPreview_errorMsg__296yj error">&nbsp;</span>
+                                                            <div class="FieldContainerStyles_container__3ugjv contact-form-field-container">
+                                                                <label data-label="Pris" class="FieldContainerStyles_label__38Z4h" style="line-height:19px">Pris *</label>
+                                                                <select class="View_select__2DXGf" name="Dropdown">
+                                                                    <option value="">-- </option>
+                                                                    <option value="Kr. 250,-">Kr. 250,-</option>
+                                                                    <option value="Kr. 300,-">Kr. 300,-</option>
+                                                                    <option value="Kr. 350,-">Kr. 350,-</option>
+                                                                    <option value="Kr. 400,-">Kr. 400,-</option>
+                                                                    <option value="Kr. 450,-">Kr. 450,-</option>
+                                                                    <option value="Kr. 500,-">Kr. 500,-</option>
+                                                                </select>
+                                                            </div>
+                                                            <span class="ContactFormPreview_errorMsg__296yj error">&nbsp;</span>
+                                                            <div class="FieldContainerStyles_container__3ugjv contact-form-field-container" style="opacity:0;position:absolute;z-index:-999;pointer-events:none">
+                                                                <label data-label="some-randome-random" class="FieldContainerStyles_label__38Z4h" style="line-height:14px">some-randome-random</label>
+                                                                <input type="text" class="View_input__1iF1T" name="some-randome-random" autocomplete="nsfsddfewpfgdfasssdfsfworsdfd" value="">
+                                                            </div>
+                                                            <span style="opacity:0;position:absolute;z-index:-999;pointer-events:none" class="ContactFormPreview_errorMsg__296yj error">&nbsp;</span>
+                                                            <div class="ContactFormPreview_captchaSubmitBtnCtn__33gO1">
+                                                                <div>
+                                                                    <div class="SubmitButton_container__3wNjE submitButtonContainer">
+                                                                        <input class="SubmitButton_submitButton__28tLg button1 contact-form-submit-btn submit-btn-disabled primary themeButtonClass Main" type="submit" style="font-size:16px;line-height:19px;text-align:center" data-title="Send" value="Send">
+                                                                    </div>
+                                                                    <div class="SubmitButton_spacer__2Ad4A"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div id="contactFormResponseContainer" class="contactFormResponseStatus"></div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Preview_row__3Fkye row Preview_noSideMargin__2I-_n" style="min-height:268px;width:100%">
+                <div data-id="A4767DDB-7159-4B60-89E1-E706AEE24C12" data-kind="SECTION" style="width:100%;min-height:268px;left:auto;margin-top:0;margin-left:0" class="Preview_componentWrapper__2i4QI">
+                    <div id="Footer" data-in-template="true" data-id="A4767DDB-7159-4B60-89E1-E706AEE24C12" data-kind="Block" data-specific-kind="SECTION" data-pin="0" data-stretch="true" class=" Preview_block__16Zmu ">
+                        <div class="StripPreview_backgroundComponent__3YmQM Background_backgroundComponent__3_1Ea hasChildren" style="background-color:rgba(255,255,255,1);border-width:1px 1px 1px 1px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:0px;min-height:268px;padding-bottom:40px" data-width="100" data-height="268">
+                            <div class="Preview_column__1KeVx col " style="min-height:100%;width:1052px;margin:0 auto">
+                                <div class="Preview_row__3Fkye row" style="min-height:151px;width:1052px">
+                                    <div class="Preview_column__1KeVx col  isExpandable" style="min-height:151px;width:321px;float:left">
+                                        <div data-id="021BAD01-6CBC-4904-BF0C-77A5D2D3C418" data-kind="ADDRESS" style="width:320px;min-height:101px;margin-top:50px;margin-left:1px" class="Preview_componentWrapper__2i4QI">
+                                            <div data-in-template="true" data-id="021BAD01-6CBC-4904-BF0C-77A5D2D3C418" data-kind="Component" data-specific-kind="ADDRESS" class=" Preview_component__SbiKo ">
+                                                <div class="White themeTextClass" style="height:100%;width:100%">
+                                                    <div class="textnormal" style="word-break:break-word;height:100%;width:100%;display:flex;align-items:center;flex-direction:row">
+                                                        <div style="width:auto">
+                                                            <div class="svgContainer" style="font-size:24px;display:flex;justify-content:center;width:24px;height:24px;margin-right:12px">
+                                                                <a class="textnormal" href="https://www.google.com/maps/search/?api=1&amp;query=Blomster%20by%20Sl%C3%B8k%2C%20Odense%20NV%2C%20Rug%C3%A5rdsvej%20192%2C%205210%20Odense%2C%20Denmark" target="_blank" style="font-size:1px;letter-spacing:1px;line-height:1.2;width:24px" data-preserve-whitespace="true">
+                                                                    <svg viewBox="0 0 29 29" style="width:24px">
+                                                                        <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7">
+                                                                            <path d="M18.625 10.2a4 4 0 11-8 .001 4 4 0 018-.001z"></path>
+                                                                            <path d="M23.825 10.2c0-5.985-4.92-9-9.5-8.95C9.797 1.2 5.3 4.223 5.3 10.2c0 5.979 8.188 16.677 8.426 17.116.238.438.976.438 1.214 0 5.923-7.41 8.885-13.116 8.885-17.116z"></path>
+                                                                        </g>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div style="width:100%">
+                                                            <div class="textnormal" style="white-space:pre-wrap;line-height:1.2;text-align:left;width:100%">
+                                                                <span style="font-weight:bold;letter-spacing:1px;display:block;margin-bottom:5px" class="prefix">Adresse</span>
+                                                                <a class="textnormal" href="https://www.google.com/maps/search/?api=1&amp;query=Blomster%20by%20Sl%C3%B8k%2C%20Odense%20NV%2C%20Rug%C3%A5rdsvej%20192%2C%205210%20Odense%2C%20Denmark" target="_blank" style="letter-spacing:1px;line-height:1.2" data-preserve-whitespace="true">
+                                                                    <span>Blomster by Sløk
+Odense NV, Rugårdsvej 192
+5210 Odense
+Denmark</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div class="Preview_column__1KeVx col " style="min-height:151px;width:420px;float:left">
+                                        <div class="Preview_row__3Fkye row" style="min-height:94px;width:420px">
+                                            <div data-id="9BD3F864-0478-4D05-9D39-BBB1FF0207F6" data-kind="EMAIL" style="width:320px;min-height:44px;margin-top:50px;margin-left:100px" class="Preview_componentWrapper__2i4QI">
+                                                <div data-in-template="true" data-id="9BD3F864-0478-4D05-9D39-BBB1FF0207F6" data-kind="Component" data-specific-kind="EMAIL" class=" Preview_component__SbiKo ">
+                                                    <div class="White themeTextClass" style="height:100%;width:100%">
+                                                        <div class="textnormal" style="word-break:break-word;height:100%;width:100%;display:flex;align-items:center;flex-direction:row">
+                                                            <div style="width:auto">
+                                                                <div class="svgContainer" style="font-size:24px;display:flex;justify-content:center;width:24px;height:24px;margin-right:12px">
+                                                                    <a class="textnormal" href="mailto:blomster@byslok.dk" style="font-size:1px;letter-spacing:1px;line-height:1.2;width:24px" data-preserve-whitespace="true">
+                                                                        <svg viewBox="0 0 29 29" style="width:24px">
+                                                                            <path fill="currentColor" d="M5.135 5.37c-1.531 0-2.772 1.209-2.772 2.7v12.958c0 1.491 1.241 2.7 2.772 2.7h18.848c1.53 0 2.771-1.209 2.771-2.7V8.07c0-1.491-1.24-2.7-2.771-2.7H5.135zm0-1.62h18.848c2.449 0 4.434 1.934 4.434 4.32v12.958c0 2.386-1.985 4.32-4.434 4.32H5.135c-2.45 0-4.435-1.934-4.435-4.32V8.07c0-2.386 1.986-4.32 4.435-4.32z"></path>
+                                                                            <path fill="currentColor" d="M23.998 7.48c.335.306.35.819.036 1.145l-5.898 6.103 5.88 5.728c.298.29.323.745.075 1.062l-.075.083a.847.847 0 01-1.176 0l-5.844-5.693-1.832 1.896a.847.847 0 01-1.21 0l-1.833-1.896L6.277 21.6a.847.847 0 01-1.176 0 .795.795 0 010-1.145l5.88-5.728-5.897-6.103a.795.795 0 01.035-1.145.847.847 0 011.176.035l8.264 8.552 8.264-8.552a.847.847 0 011.175-.035z"></path>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div style="width:100%">
+                                                                <div class="textnormal" style="white-space:pre-wrap;line-height:1.2;text-align:left;width:100%">
+                                                                    <span style="font-weight:bold;letter-spacing:1px;display:block;margin-bottom:5px" class="prefix">E-mail</span>
+                                                                    <a class="textnormal" href="mailto:blomster@byslok.dk" style="letter-spacing:1px;line-height:1.2" data-preserve-whitespace="true">
+                                                                        <span>blomster@byslok.dk</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Preview_row__3Fkye row" style="min-height:54px;width:420px">
+                                            <div data-id="64B7C04F-C4DC-4253-B0C6-AB8FF23D3894" data-kind="SOCIAL_LINKS" style="width:111px;height:24px;margin-top:30px;margin-left:149px" class="Preview_componentWrapper__2i4QI">
+                                                <div data-in-template="true" data-id="64B7C04F-C4DC-4253-B0C6-AB8FF23D3894" data-kind="Component" data-specific-kind="SOCIAL_LINKS" class=" Preview_component__SbiKo ">
+                                                    <div class="Social_container__2rWh4 THEME_DEFAULT" style="font-size:24px">
+                                                        <a href="https://facebook.com/KroghsBlomster" target="_blank" style="width:24px;height:24px">
+                                                            <svg viewBox="0 0 45 45" style="width:24px;height:24px">
+                                                                <path fill="#3c3c3c" d="M44.506 22.23C44.506 9.951 34.543 0 22.253 0 9.963 0 0 9.952 0 22.23c0 11.094 8.138 20.29 18.776 21.958V28.655h-5.65V22.23h5.65v-4.897c0-5.571 3.322-8.649 8.405-8.649 2.435 0 4.981.435 4.981.435v5.47h-2.806c-2.764 0-3.626 1.714-3.626 3.472v4.17h6.172l-.987 6.425H25.73V44.19c10.638-1.668 18.776-10.864 18.776-21.96"></path>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="https://instagram.com/p/BjHDbBinXBs/?hl=da" target="_blank" style="width:24px;height:24px">
+                                                            <svg viewBox="0 0 43 43" style="width:24px;height:24px">
+                                                                <defs>
+                                                                    <path id="instagram_regular_dark_svg__a" d="M.049 12.263C.049 5.506 5.524.028 12.28.028h18.15c6.754 0 12.23 5.478 12.23 12.235V30.19c0 6.757-5.475 12.234-12.23 12.234H12.28C5.525 42.424.05 36.946.05 30.19V12.263zm3.945 0V30.19a8.287 8.287 0 008.286 8.287h18.15a8.286 8.286 0 008.285-8.287V12.263a8.287 8.287 0 00-8.285-8.288H12.28a8.286 8.286 0 00-8.286 8.288zm17.417 20.351c-6.195 0-11.217-5.023-11.217-11.219s5.022-11.219 11.217-11.219c6.194 0 11.216 5.023 11.216 11.22 0 6.195-5.022 11.218-11.216 11.218zm0-3.946a7.272 7.272 0 007.27-7.273 7.272 7.272 0 10-14.541 0 7.272 7.272 0 007.27 7.273zM32.74 12.6a2.706 2.706 0 110-5.411 2.706 2.706 0 010 5.411z"></path>
+                                                                </defs>
+                                                                <use fill="#3c3c3c" xlink:href="#instagram_regular_dark_svg__a"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div class="Preview_column__1KeVx col  isExpandable" style="min-height:151px;width:310px;float:left">
+                                        <div data-id="9E6DCD91-9AF1-4589-89E0-0C4D289E5FE6" data-kind="PHONE" style="width:210px;min-height:44px;margin-top:50px;margin-left:100px" class="Preview_componentWrapper__2i4QI">
+                                            <div data-in-template="true" data-id="9E6DCD91-9AF1-4589-89E0-0C4D289E5FE6" data-kind="Component" data-specific-kind="PHONE" class=" Preview_component__SbiKo ">
+                                                <div class="White themeTextClass" style="height:100%;width:100%">
+                                                    <div class="textnormal" style="word-break:break-word;height:100%;width:100%;display:flex;align-items:center;flex-direction:row">
+                                                        <div style="width:auto">
+                                                            <div class="svgContainer" style="font-size:24px;display:flex;justify-content:center;width:24px;height:24px;margin-right:12px">
+                                                                <a class="textnormal" href="tel:66%2016%2039%2007" style="font-size:1px;letter-spacing:1px;line-height:1.2;width:24px" data-preserve-whitespace="true">
+                                                                    <svg viewBox="0 0 29 29" style="width:24px">
+                                                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M6.364 3.81c1.496-1.503 5.032-2.139 6.907-2.108 1.88-.218 1.273 8.104.313 8.263 0 0-3.039.384-3.125 1.275-.116 1.217 3.009 8.67 4.22 8.84.65.091 2.606-1.402 2.606-1.402 1.521-1.145 4.678 2.2 6.161 3.596.649.627.617 1.159-.059 1.947-1.181 1.322-4.29 3.439-5.52 3.266-2.988-.42-8.05-4.592-10.483-9.582-2.743-5.629-2.712-12.82-1.02-14.095z"></path>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div style="width:100%">
+                                                            <div class="textnormal" style="white-space:pre-wrap;line-height:1.2;text-align:left;width:100%">
+                                                                <span style="font-weight:bold;letter-spacing:1px;display:block;margin-bottom:5px" class="prefix">Telefon</span>
+                                                                <a class="textnormal" href="tel:66%2016%2039%2007" style="letter-spacing:1px;line-height:1.2" data-preserve-whitespace="true">
+                                                                    <span>66 &nbsp;16 &nbsp;39 &nbsp;07</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                                <div class="Preview_row__3Fkye row" style="min-height:77px;width:1052px">
+                                    <div data-id="712CB8A4-C18F-4C12-A1EF-0088604D6622" data-kind="TEXT" style="width:790px;min-height:39px;margin-top:38px;margin-left:131px" class="Preview_componentWrapper__2i4QI">
+                                        <div data-in-template="true" data-id="712CB8A4-C18F-4C12-A1EF-0088604D6622" data-kind="Component" data-specific-kind="TEXT" class=" Preview_component__SbiKo text-align-left">
+                                            <div class="styles_verticalAlignmentWrapper__3SDi2" style="align-items:center">
+                                                <div data-mve-font-change="0" style="width:100%" class="styles_contentContainer__lrPIa textnormal styles_text__3jGMu styles_invalidateHighlightAndShadows__2W3IH White themeTextClass">
+                                                    <p style="text-align: center;" class="">Copyright © Alle rettigheder forbeholdes</p>
+                                                    <p style="text-align: center;" class="">Blomster by Sløk - CVR: 31357578</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="clear:both"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="publishOnlyComponents">
+            <div data-testid="empty-cart-component"></div>
+        </div>
+        <script src="/onewebstatic/a2cf72ae9c.js"></script>
+        <script src="/onewebstatic/7bb8749f5c.js"></script>
+        <script src="/onewebstatic/d8aaffab41.js"></script>
+        <script src="/onewebstatic/6499ecfb0a.js"></script>
+        <script src="/onewebstatic/a966beca17.js"></script>
+        <script src="/onewebstatic/b2f02b21b9.js"></script>
+        <script src="/onewebstatic/0cc6b0fe94.js"></script>
+        <script src="/onewebstatic/3ca735d8af.js"></script>
+        <script src="/onewebstatic/79d2b8e633.js"></script>
+        <script src="/onewebstatic/4c43ebb3b3.js"></script>
+        <script src="/onewebstatic/2845b81ee3.js"></script>
+        <script src="/onewebstatic/754da52d3a.js"></script>
+        <script src="/onewebstatic/6563f65d21.js"></script>
+        <script src="/onewebstatic/cbd6cd157d.js"></script>
+        <script src="/onewebstatic/4875ce72c2.js"></script>
+        <script src="/onewebstatic/9761174e65.js"></script>
+        <script src="/onewebstatic/50a91946f6.js"></script>
+        <script src="/onewebstatic/c11b17c5d2.js"></script>
+        <script src="/onewebstatic/79575a4ba3.js"></script>
+        <script src="/onewebstatic/9fd7509069.js"></script>
+        <script src="/onewebstatic/f325d37433.js"></script>
+        <script src="/onewebstatic/ac03fb8dec.js" id="mobileBackgroundLiner" data-params="{&quot;bodyBackgroundClassName&quot;:&quot;bodyBackground&quot;,&quot;linerClassName&quot;:&quot;Preview_bodyBackgroundLiner__1bYbS&quot;,&quot;scrollEffect&quot;:null}"></script>
+        <div id="tracking-scripts-container">
+            <script key="g-tag-load-lib-script"></script>
+            <script key="f-pixel-script"></script>
+            <script key="sitWit-script"></script>
+            <script key="kliken-script"></script>
+        </div>
+        <div></div>
+    </body>
 </html>
