@@ -1,5 +1,5 @@
-
-const tilbud [
+function button() {
+  const tilbud [
     {
         img: "ros.jpg",
         title: "Roses",
@@ -34,10 +34,16 @@ const tilbud [
         price: "199kr",
         text: "Du kan køb buket af de smukkeste tulipaner vi har",
     },
-]
+  ]
+}
+
+// manglar funtion, indhold skal være alert 
+// og en id som skal indhold array i, så skal jeg set disse function i button på html
+
+
 
 for (const i = 0; i > tilbud.length; i++){
-    
+
 }
 
 <img src = "billeder/ros.jpg" ></img>
