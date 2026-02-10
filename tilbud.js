@@ -1,42 +1,49 @@
+let isOpen = false;
+
 function button() {
   let tilbud = [
     {
-        title: "Mandags tilbud",
-        price: "199kr",
-        text: "Du kan køb buket af de smukkeste roser vi har",
-        image: "billeder/ros.jpg"
+      title: "Mandags tilbud",
+      price: "199 kr",
+      text: "Du kan købe buket af de smukkeste roser vi har",
+      image: "billeder/ros.jpg"
     },
-
     {
-        title: "Tirsdags tilbud",
-        price: "299kr",
-        text: "Du kan køb buket af de smukkeste hyacinth vi har",
-        image: "billeder/hyacinth.jpg"
+      title: "Tirsdags tilbud",
+      price: "299 kr",
+      text: "Du kan købe buket af de smukkeste hyacinth vi har",
+      image: "billeder/hyacinth.jpg"
     },
-    
     {
-        title: "Onsdags tilbud",
-        price: "149kr",
-        text: "Du kan køb buket af de smukkeste lilje vi har",
-        image: "billeder/liljur.jpg"
+      title: "Onsdags tilbud",
+      price: "149 kr",
+      text: "Du kan købe buket af de smukkeste lilje vi har",
+      image: "billeder/liljur.jpg"
     },
-    
     {
-        title: "torsdags tilbud",
-        price: "259kr",
-        text: "Du kan køb buket af de smukkeste marigold vi har",
-        image: "billeder/marigold.jpg"
+      title: "Torsdags tilbud",
+      price: "259 kr",
+      text: "Du kan købe buket af de smukkeste marigold vi har",
+      image: "billeder/marigold.jpg"
     },
-    
     {
-        title: "Fredags tilbud",
-        price: "199kr",
-        text: "Du kan køb buket af de smukkeste tulipaner vi har",
-        image: "billeder/tulipaner.jpg"
-    },
- ];
+      title: "Fredags tilbud",
+      price: "199 kr",
+      text: "Du kan købe buket af de smukkeste tulipaner vi har",
+      image: "billeder/tulipaner.jpg"
+    }
+  ];
 
   let container = document.getElementById("tilbudContainer");
+
+  // 👉 EF opið → loka
+  if (isOpen === true) {
+    container.innerHTML = "";
+    isOpen = false;
+    return;
+  }
+
+  // 👉 EF lokað → opna
   container.innerHTML = "";
 
   for (let i = 0; i < tilbud.length; i++) {
@@ -48,5 +55,6 @@ function button() {
       + "<p>" + tilbud[i].text + "</p>"
       + "</div>";
   }
-}
 
+  isOpen = true;
+}
