@@ -34,10 +34,3 @@ for (let i = 0; i < tilbud.length; i++){
  alert("halloooooo")
  }
 }
-// manglar funtion, indhold skal være alert 
-// og en id som skal indhold array i, så skal jeg set disse function i button på html
-
-
-<img src = "billeder/ros.jpg" ></img>
-
-<img src="img/fotspor_fyrir.png" alt="The Christmas card before changes">
