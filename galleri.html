@@ -1,0 +1,302 @@
+  <!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleri – Blomster by Sløk</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="galleri.js" defer></script>
+</head>
+  
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="https://impro.usercontent.one/appid/oneComWsb/domain/blomsterbyslok.dk/media/blomsterbyslok.dk/onewebmedia/Logo%20Blomster%20by%20Sløk.jpg?etag=W%2F%222e00a3-605c78d9%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=292%2B120&quality=85"
+                alt="logo" class="logo">
+
+            <!-- Denne kode er lavet med hjælp fra W3Schools.dk -->
+            <div class="dropdown">
+                <!-- Burger ikon -->
+                <div class="burger" onclick="myFunction()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div id="myDropdown" class="menu">
+                    <a href="#om-os">Om os</a>
+                    <a href="#bestilling">Bestilling</a>
+                    <a href="#aabningstider">Åbningstider</a>
+                    <a href="#abonnement">Blomster abonnement</a>
+                    <a href="#gallery-hero">Galleri</a>
+                </div>
+            </div>
+        </div>
+    </header>
+<main>
+  
+  <!-- Gallery Hero -->
+    <section class="gallery-hero">
+        <h1><span class="highlight">Vores</span> galleri </h1>
+        <p>Et kig ind i blomsterkunstens verden hos Blomster by Sløk</p>
+    </section>
+
+    <!-- Filter Buttons -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Alle</button>
+                <button class="filter-btn" data-filter="buketter">Buketter</button>
+                <button class="filter-btn" data-filter="planter">Planter</button>
+                <button class="filter-btn" data-filter="arrangementer">Arrangementer</button>
+                <button class="filter-btn" data-filter="butik">Fra butikken</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid" id="gallery-grid">
+
+                <div class="gallery-item" data-category="buketter">
+                    <img src="488525174_1297500871847728_4987560423576168540_n.jpg" alt="Forårsbuket">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Forårsbuket</h3>
+                            <p>Friske forårsfarver med gule kugleblomster, hvid gypsophila og lilla statice, en skøn blanding til 79,-</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="buketter">
+                    <img src="487876261_1298193395111809_8176282621457472598_n.jpg" alt="Dahlia buketter">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Dahlia buketter</h3>
+                            <p>Flotte dahliaer i alle farver fra pink til hvid og rød, håndplukket og pakket med kærlighed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="arrangementer">
+                    <img src="488536256_1301109494820199_5327120715836836872_n.jpg" alt="Vase arrangement">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Vase arrangement</h3>
+                            <p>Naturligt og organisk arrangement med protea, anthurium og eucalyptus i en rustik glasvase</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="buketter">
+                    <img src="488912534_1301121504818998_5352748186438608952_n.jpg" alt="Festbuket">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Festbuket</h3>
+                            <p>En storslået buket med pink gerbera, mørk hortensia og champagne roser, perfekt til en fest</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="arrangementer">
+                    <img src="488688731_1301815124749636_7248700587923946967_n.jpg" alt="Efterårsarrangement under udarbejdelse">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Bag kulisserne</h3>
+                            <p>Sanne arbejder på et stort efterårsarrangement med gladioli og græsser i drivhuset</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="arrangementer">
+                    <img src="488673289_1301815324749616_4112763599728303935_n.jpg" alt="Efterårsarrangement">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Efterårsarrangement</h3>
+                            <p>Stort dekorativt arrangement med gladioli, græsser og efeu i sorte potter, skabt til udendørs dekoration</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="butik">
+                    <img src="489046966_1303019311295884_8360519171068036057_n.jpg" alt="I butikken">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>I butikken</h3>
+                            <p>Et hav af friske blomster, hortensiaer, roser, nelliker og bær, klar til at blive dit næste køb</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="butik">
+                    <img src="489324220_1303145467949935_1285233069651255835_n.jpg" alt="Sanne i drivhuset">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Sanne i drivhuset</h3>
+                            <p>Blomsterdekoratør Sanne Sløk arbejder med passion for sit håndværk, hver dag i drivhuset</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="arrangementer">
+                    <img src="489910692_1304946934436455_4240255685501137650_n.jpg" alt="Amaryllis arrangement">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Vinterarrangement</h3>
+                            <p>Elegant arrangement med dyb rød amaryllis og røde bær, en klassiker i vintermånederne</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="planter">
+                    <img src="490119843_1305297121068103_5259612329076566163_n.jpg" alt="Hvide orkideer">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Hvide orkideer</h3>
+                            <p>Smukke hvide phalaenopsis orkideer i grønne keramikpotter, tidløs elegance til hjemmet</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="buketter">
+                    <img src="490364817_1305651797699302_2981543948848531352_n.jpg" alt="Farverige tulipaner">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Farverige tulipaner</h3>
+                            <p>Et væld af friske tulipaner i alle regnbuens farver, forårets smukkeste blomst</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="buketter">
+                    <img src="489921669_1305651677699314_6611403592498411657_n.jpg" alt="Ranunkler">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Ranunkler</h3>
+                            <p>Pragtfulde ranunkler i rosa, rød, gul og lilla, blomster med utallige bløde kronblade</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="planter">
+                    <img src="490175856_1305743911023424_5141868985894702685_n.jpg" alt="Mini planter">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Mini planter</h3>
+                            <p>Søde mini succulenter og kaktusser, perfekte som gave eller til at pynte vindueskarmen</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="planter">
+                    <img src="490293123_1305743817690100_4023032713224937217_n.jpg" alt="Kaktusser">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Kaktusser</h3>
+                            <p>Flotte runde og søjleformede kaktusser i terracottapotter, lavt vedligehold og høj charme</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="planter">
+                    <img src="489889031_1305743644356784_3446910046268029807_n.jpg" alt="Sansevieria">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Sansevieria</h3>
+                            <p>Robuste og smukke sansevieria planter i hvide betonlignende potter, ideelle til kontor og hjem</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="planter">
+                    <img src="490274523_1305743984356750_5352967646827182697_n.jpg" alt="Asparagesurt">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Asparagesurt</h3>
+                            <p>Luftige og delikate aspargesurt planter i rustikke terracottapotter, skaber hygge i ethvert rum</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="planter">
+                    <img src="489912975_1305747564356392_8571626778764404757_n.jpg" alt="Azalea">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Azalea</h3>
+                            <p>Smuk azalea med knoppar klar til at springe ud, en klassisk gave der holder længe. Kun 79,-</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="planter">
+                    <img src="489892866_1305747687689713_5842147487291869513_n.jpg" alt="Pink anthurium">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Pink anthurium</h3>
+                            <p>Eksotiske pink anthuriumplanter med blank grøn bladmasse, blomstrer i månedsvis med lidt pleje</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="planter">
+                    <img src="490498629_1305747557689726_4479181069143681929_n.jpg" alt="Primula">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>Primula</h3>
+                            <p>Knaldfarvet primula i lilla og pink med gule centre, forårets første blomst fuld af liv og farve</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">&times;</button>
+        <button class="lightbox-prev" id="lightbox-prev">&#8249;</button>
+        <button class="lightbox-next" id="lightbox-next">&#8250;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-desc"></p>
+            </div>
+        </div>
+    </div>
+    </main>
+
+      <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-item">
+                    <div class="footer-content">
+                        <span class="footer-label">Adresse</span>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Rugårdsvej+192,+5210+Odense" target="_blank">
+                            Rugårdsvej 192, 5210 Odense NV
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-content">
+                        <span class="footer-label">E-mail</span>
+                        <a href="/cdn-cgi/l/email-protection#ccaea0a3a1bfb8a9be8caeb5bfa0a3a7e2a8a7"></a>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-content">
+                        <span class="footer-label">Telefon</span>
+                        <a href="tel:66163907">66 16 39 07</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © Alle rettigheder forbeholdes – Blomster by </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
