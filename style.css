@@ -131,52 +131,79 @@ img {
 }
 
 /* Desktop Header */
+/* Denne kode er lavet med hjælp fra W3Schools.dk */
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #e0e0e0;
-    padding: 20px 0 10px;
+    padding: 20px 0;
     position: relative;
 }
 
 .header .container {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.header-logo {
-    text-align: left;
-}
-
-
-.desktop-menu {
-    flex: 1;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    max-width: 150px;  /* Juster denne værdi efter ønske */
-    height: auto;
+    height: 60px;
+    width: auto;
 }
 
-.desktop-menu ul {
+/* Burger Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* burger ikon */
+.burger {
+    cursor: pointer;
     display: flex;
-    gap: 40px;
-    justify-content: flex-start;
-    margin-left: 210px;
+    flex-direction: column;
+    gap: 6px;
 }
 
-.desktop-menu ul li a {
-    color: #3c3c3c;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px 0;
-    transition: color 0.3s;
-    letter-spacing: 0.5px;
+/* burger streger */
+.burger div {
+    width: 35px;
+    height: 4px;
+    background-color: black;
+    transition: 0.3s;
 }
 
-.desktop-menu ul li a:hover {
-    color: #f05858;
+/* menu skjult fra start */
+.menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 100;
 }
+
+/* vis menu */
+.menu.show {
+    display: block;
+}
+
+/* links */
+.menu a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+/* hover effekt */
+.menu a:hover {
+    background-color: #ddd;
+}
+
 
 .header-phone {
     display: flex;
