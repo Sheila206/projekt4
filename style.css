@@ -181,7 +181,7 @@ img {
     background-color: #f1f1f1;
     min-width: 200px;
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 100;
 }
 
@@ -224,6 +224,91 @@ img {
 }
 
 /* Hero Section */
+/*Generel layout fundet via hjælp af W3 schools*/
+* {
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.mySlides {
+    display: none;
+}
+
+/*chat hjalp mig komme frem til denne styk kode da oplevet w3 skoles gjorde at billederne bare forsvant*/
+.mySlides:first-child {
+    display: block;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
 .hero {
     position: relative;
     min-height: 688px;
@@ -242,59 +327,42 @@ img {
     background-color: #3c3c3c;
 }
 
-.hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(60, 60, 60, 0.6);
-    z-index: 1;
-}
-
-.hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1600&h=900&fit=crop');
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    opacity: 0.6;
-}
-
 .hero-content {
-    position: relative;
+    position: absolute;
     z-index: 2;
     color: #ffffff;
     text-align: left;
-    max-width: 1052px;
-    width: 100%;
+    width: 80%;
     padding: 40px 20px;
+    transform: translateY(-100%);
+    text-align: center;
 }
 
 .hero-title {
     font-size: 70px;
-    font-weight: 100;
+    font-weight: 200;
     margin-bottom: 20px;
     line-height: 1.2;
+    font-style: bold;
 }
 
 .hero-title .highlight {
     color: #f05858;
+    font: 1em raleway, Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .hero-title .normal {
     color: #ffffff;
+    font: 1em raleway, Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .hero-subtitle {
     text-align: right;
     font-size: 20px;
     margin-bottom: 150px;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 .hero-subtitle p {
@@ -307,15 +375,16 @@ img {
 }
 
 .hero-announcement h2 {
-    font-size: 70px;
-    font-weight: 100;
+    font-size: 60px;
     margin-bottom: 10px;
+    font-weight: bold;
+    font: raleway, Arial, Helvetica, sans-serif;
 }
 
 .hero-announcement p {
-    font-size: 40px;
-    font-weight: 100;
-    line-height: 1.4;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
 }
 
 /* About Section */
@@ -711,86 +780,87 @@ img {
 }
 
 @media (max-width: 768px) {
+
     /* Show mobile header */
     .mobile-header {
         display: block;
     }
-    
+
     /* Hide desktop header */
     .header {
         display: none;
     }
-    
+
     /* Hero adjustments */
     .hero {
         min-height: 500px;
     }
-    
+
     .hero-title {
         font-size: 40px;
     }
-    
+
     .hero-subtitle {
         font-size: 16px;
         text-align: center;
         margin-bottom: 80px;
     }
-    
+
     .hero-announcement h2 {
         font-size: 40px;
     }
-    
+
     .hero-announcement p {
         font-size: 24px;
     }
-    
+
     /* About section */
     .about-grid {
         grid-template-columns: 1fr;
         gap: 40px;
     }
-    
+
     /* Bestilling section */
     .bestilling-content h1 {
         font-size: 50px;
     }
-    
+
     .bestilling-content h2 {
         font-size: 24px;
     }
-    
+
     .email-info h3 {
         font-size: 30px;
     }
-    
+
     /* Opening hours */
     .opening-header h2 {
         font-size: 50px;
     }
-    
+
     .opening-header .subtitle {
         font-size: 20px;
     }
-    
+
     .opening-header .personal-service {
         font-size: 24px;
     }
-    
+
     .opening-grid {
         grid-template-columns: 1fr;
         gap: 20px;
     }
-    
+
     .opening-divider {
         display: none;
     }
-    
+
     /* Abonnement */
     .abonnement-grid {
         grid-template-columns: 1fr;
         gap: 40px;
     }
-    
+
     /* Footer */
     .footer-grid {
         grid-template-columns: 1fr;
@@ -802,27 +872,27 @@ img {
     .hero-title {
         font-size: 32px;
     }
-    
+
     .hero-announcement h2 {
         font-size: 32px;
     }
-    
+
     .hero-announcement p {
         font-size: 18px;
     }
-    
+
     .bestilling-content h1 {
         font-size: 36px;
     }
-    
+
     .email-info h3 {
         font-size: 24px;
     }
-    
+
     .opening-header h2 {
         font-size: 36px;
     }
-    
+
     .about-header h2,
     .abonnement-section h2 {
         font-size: 32px;
