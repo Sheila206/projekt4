@@ -1,3 +1,4 @@
+<!--Layout lavet ved hjælp af Claude-->
 <!DOCTYPE html>
 <html lang="da">
 
@@ -57,7 +58,7 @@
             <!-- Denne kode er lavet med hjælp fra W3Schools.dk -->
             <div class="dropdown">
                 <!-- Burger ikon -->
-                <div class="burger" onclick="myFunction()">
+                <div class="burger" onclick="burgerMenu()">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -80,7 +81,7 @@
         <div class="slideshow-container">
             <div class="mySlides fade">
                 <div class="numbertext">1 / 4</div>
-                <img src="blomster11l.jpg" alt="catus arrangement" style=" width: 100%;">
+                <img src="billeder/blomster11l.jpg" alt="catus arrangement" style=" width: 100%;">
                 <div class="hero-content">
                     <h1 class="hero-title">
                         <span class="highlight">Blomster</span> <span class="normal">by</span> <span
@@ -100,15 +101,15 @@
             </div>
             <div class="mySlides fade">
                 <div class="numbertext">2 / 4</div>
-                <img src="blomster2l.jpg" alt="Blomster arrangement" style=" width: 100%;">
+                <img src="billeder/blomster2l.jpg" alt="Blomster arrangement" style=" width: 100%;">
             </div>
             <div class="mySlides fade">
                 <div class="numbertext">3 / 4</div>
-                <img src="blomster 3l.jpg" alt="lille buket" style=" width: 100%;">
+                <img src="billeder/blomster3l.jpg" alt="lille buket" style=" width: 100%;">
             </div>
             <div class="mySlides fade">
                 <div class="numbertext">4 / 4</div>
-                <img src="blomster4l.jpg" alt="Friske blomster" style=" width: 100%;">
+                <img src="billeder/blomster4l.jpg" alt="Friske blomster" style=" width: 100%;">
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -122,8 +123,8 @@
     </section>
 
     <!-- Báras kode, fået fra mig, men sparred med chatGBT-->
-      <button class="submit-button" onclick="button()">Kig på vores tilbud</button>
-      <div id="tilbudContainer"></div>
+    <button class="submit-button" onclick="button()">Kig på vores tilbud</button>
+    <div id="tilbudContainer"></div>
 
     <!-- Om os Section -->
     <section id="om-os" class="about-section">
@@ -273,7 +274,7 @@
                             <label>Datoer for levering *</label>
                             <input type="text" name="datoer" required>
                         </div>
- <!-- sheilas kode-->
+                        <!-- sheilas kode-->
                         <div class="form-group">
                             <label>Vælg buket størrelse</label>
 

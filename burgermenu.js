@@ -1,11 +1,11 @@
 /* Denne kode er lavet med hjælp fra W3Schools.dk*/
 /* Åbner og lukker menuen når man klikker på burgeren */
-function myFunction() {
+function burgerMenu() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
 /* Lukker menuen hvis man klikker udenfor */
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (!event.target.matches('.burger') && !event.target.matches('.burger div')) {
     let dropdowns = document.getElementsByClassName("menu");
     let i;

@@ -1,4 +1,5 @@
 /* Reset and Base Styles */
+/*Layout lavet ved hjælp af Claude*/
 * {
     margin: 0;
     padding: 0;
@@ -685,7 +686,8 @@ img {
 }
 
 .submit-button:hover {
-    background-color:#c9a96e;;
+    background-color: #c9a96e;
+    ;
 }
 
 /* Footer */
@@ -736,7 +738,8 @@ img {
 }
 
 .footer-content a:hover {
-    color:#c9a96e;;
+    color: #c9a96e;
+    ;
 }
 
 .social-links {
@@ -897,10 +900,12 @@ img {
     .abonnement-section h2 {
         font-size: 32px;
     }
-}/* GALLERY HERO */
+}
+
+/* GALLERY HERO */
 .gallery-hero {
     background: linear-gradient(rgba(60, 60, 60, 0.55), rgba(60, 60, 60, 0.55)),
-                url('488525174_1297500871847728_4987560423576168540_n.jpg') center/cover no-repeat;
+        url('billeder/488525174_1297500871847728_4987560423576168540_n.jpg') center/cover no-repeat;
     min-height: 320px;
     display: flex;
     flex-direction: column;
@@ -1018,12 +1023,10 @@ img {
 .gallery-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(
-        to top,
-        rgba(60, 60, 60, 0.92) 0%,
-        rgba(60, 60, 60, 0.4) 50%,
-        rgba(60, 60, 60, 0) 100%
-    );
+    background: linear-gradient(to top,
+            rgba(60, 60, 60, 0.92) 0%,
+            rgba(60, 60, 60, 0.4) 50%,
+            rgba(60, 60, 60, 0) 100%);
     display: flex;
     align-items: flex-end;
     padding: 24px;
@@ -1070,6 +1073,7 @@ img {
         opacity: 0;
         transform: translateY(16px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);

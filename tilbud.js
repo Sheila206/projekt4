@@ -1,5 +1,5 @@
 let isOpen = false;
-
+//Báras kode, fået fra mig, men sparred med chatGBT
 function button() {
   let tilbud = [
     {

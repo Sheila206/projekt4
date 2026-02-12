@@ -1,6 +1,8 @@
+//Gallery Grid inspiration fra Claude
 // ============================================
 // FILTER FUNCTIONALITY
 // ============================================
+//Filter Buttons - denne del er hjulpet med chat
 const filterBtns = document.querySelectorAll('.filter-btn');
 const galleryItems = document.querySelectorAll('.gallery-item');
 
@@ -28,13 +30,14 @@ filterBtns.forEach(btn => {
 // ============================================
 // LIGHTBOX
 // ============================================
-const lightbox      = document.getElementById('lightbox');
-const lightboxImg   = document.getElementById('lightbox-img');
+//Lightbox inspiration fra Claude
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
 const lightboxTitle = document.getElementById('lightbox-title');
-const lightboxDesc  = document.getElementById('lightbox-desc');
-const closeBtn      = document.getElementById('lightbox-close');
-const prevBtn       = document.getElementById('lightbox-prev');
-const nextBtn       = document.getElementById('lightbox-next');
+const lightboxDesc = document.getElementById('lightbox-desc');
+const closeBtn = document.getElementById('lightbox-close');
+const prevBtn = document.getElementById('lightbox-prev');
+const nextBtn = document.getElementById('lightbox-next');
 
 let currentIndex = 0;
 let visibleItems = [];
@@ -53,14 +56,14 @@ function closeLightbox() {
 
 function updateLightbox() {
     const item = visibleItems[currentIndex];
-    const img   = item.querySelector('img');
+    const img = item.querySelector('img');
     const title = item.querySelector('.gallery-text h3');
-    const desc  = item.querySelector('.gallery-text p');
+    const desc = item.querySelector('.gallery-text p');
 
-    lightboxImg.src          = img.src;
-    lightboxImg.alt          = img.alt;
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
     lightboxTitle.textContent = title ? title.textContent : '';
-    lightboxDesc.textContent  = desc  ? desc.textContent  : '';
+    lightboxDesc.textContent = desc ? desc.textContent : '';
 }
 
 function showPrev() {
